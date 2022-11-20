@@ -1,3 +1,4 @@
+# 내 답안
 '''
 a = int(input())
 resultTen = a // 10
@@ -13,7 +14,7 @@ while (1):
         print(num)
         break;
 '''
-
+# 모범 답안!!
 n = int(input())
 key = n
 cnt = 0
