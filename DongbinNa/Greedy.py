@@ -39,5 +39,3 @@ def solution3(n):
 print(solution3("02984"))
 
 # 모험가 길드
-
-def solution4():
