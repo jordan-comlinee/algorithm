@@ -4,9 +4,13 @@ m = [[0] * n for _ in range(n)]
 # 학생을 배치할 순서
 studentList = []
 # 학생이 좋아하는 학생들 리스트
-studentLikeList = []*n
+studentLikeList = []
+# 총점수
+totalScore = 0
 for i in range(n**2):
     student = list(map(int, input().split()))
+    if len(student) !=5:
+        break
     studentList.append(student[0])
     studentLikeList.append(student[1:5])
 # 상, 하, 좌, 우
@@ -36,8 +40,6 @@ def getScore(x, y):
             likeStudent+=1
     return likeStudent
 
-
-totalScore = 0
 # 학생들 차례대로 위치 지정해줌, 동일한 점수를 가진 경우...구분
 for i in range(len(studentList)):
     score = 0
@@ -49,8 +51,11 @@ for i in range(len(studentList)):
                 if bfs(ii, jj, i) > score:
                     score = bfs(ii, jj, i)
                     mx, my = ii, jj
+            else:
+                continue
     m[mx][my] = studentList[i]
-
+    print(m)
+print(m)
 for i in range(n):
     for j in range(n):
         studentLike = getScore(i, j)
