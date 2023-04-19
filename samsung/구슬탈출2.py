@@ -8,6 +8,7 @@ def solution():
     q = deque()
     # 구슬이 들렸던 위치를 저장함
     visited = [[[[False]*m for i in range(n)] for i in range(m)]for i in range(n)]
+    print(b)
 
     # 초기 구슬의 좌표를 저장함
     def init():
@@ -18,7 +19,7 @@ def solution():
                     rx, ry = i, j
                 elif b[i][j] == 'B':
                     bx, by = i, j
-        # 구슬의 위치와 depth를 저장함
+        # 구슬의 위치와 depth를 저장함_ 왜?
         q.append((rx, ry, bx, by, 1))
         # 구슬의 위치를 기록함
         visited[rx][ry][bx][by] = True

@@ -11,6 +11,7 @@ def solution():
             if m[i][j] == 9:
                 pos.append(i)
                 pos.append(j)
+    print(pos)
     cnt = 0
     # 가까운 먹이를 찾는 탐색 알고리즘으로, BFS를 생각할 수 있음
     # 입력으로 현재 아기 상어의 위치를 넣고, 반환으로 후보 리스트를 반환함.
