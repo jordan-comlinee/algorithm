@@ -1,3 +1,7 @@
+// 첫번쨰 방법 ? : 겹치는 부분을 구해서 빼는 방법
+// 두번째 방법 ? : 도화지를 실제로 만드는 방법
+// 두번째 방법으로  풀었음
+
 import java.util.Scanner
 import kotlin.math.max
 
