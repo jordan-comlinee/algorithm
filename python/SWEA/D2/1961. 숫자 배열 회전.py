@@ -4,7 +4,6 @@ def rotate_90(N, maze):
         for j in range(N):
             result[j][N-1-i] = maze[i][j]
     return result
-
 T = int(input())
 
 for t in range(1, T+1):
