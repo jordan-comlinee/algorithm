@@ -1,6 +1,7 @@
 def dfs(n, sum) :
     global cnt
     if(sum == K) :
+        print()
         cnt += 1
         return
     if n == N :

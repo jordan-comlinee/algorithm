@@ -31,4 +31,5 @@ for t in range(1, T+1):
     board = [0]*N
     visited = [False]*N
     result = 0
+    dfs(0)
     print(f"#{t} {result}")

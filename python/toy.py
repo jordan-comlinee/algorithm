@@ -1,20 +1,22 @@
-def dfs(depth, sum):
-    global N, K, A, cnt
-    if sum == K :
-        cnt += 1
-        return
+def dfs(depth) :
+    global result
     if depth == N :
+        result += 1
         return
-    dfs(depth+1, sum+A[depth])
-    dfs(depth+1, sum)
+    for i in range(N) :
+        board[depth] = i
+        if check(depth):
+            dfs(depth+1)
+def check(n):
+    for i in range(n):
+        if(board[n] == board[i]) or (n-i == abs(board[n]-board[i])):
+            return False
+    return True
 
 
 
-T = int(input())
-
-for t in range(1, T+1):
-    N, K = map(int, input().split())
-    A = list(map(int, input().split()))[:N]
-    cnt = 0
-    dfs(0, 0)
-    print(f"#{t} {cnt}")
+N = int(input())
+board = [0]*N
+result = 0
+dfs(0)
+print(f"{result}")
