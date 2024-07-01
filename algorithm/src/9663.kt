@@ -1,5 +1,5 @@
 import java.util.Scanner
-var N: Int = 0
+private var N: Int = 0
 lateinit var board: IntArray
 var ans: Int = 0
 private fun dfs(depth: Int) {
