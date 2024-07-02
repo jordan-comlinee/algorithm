@@ -1,7 +1,7 @@
 import java.util.Scanner
-lateinit var visited: BooleanArray
-lateinit var network: Array<MutableList<Int>>
-var result = 0
+private lateinit var visited: BooleanArray
+private lateinit var network: Array<MutableList<Int>>
+private var result = 0
 private fun dfs(depth : Int) {
     visited[depth] = true
     for (c in network[depth]) {

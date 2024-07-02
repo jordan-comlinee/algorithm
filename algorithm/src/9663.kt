@@ -1,7 +1,7 @@
 import java.util.Scanner
 private var N: Int = 0
-lateinit var board: IntArray
-var ans: Int = 0
+private lateinit var board: IntArray
+private var ans: Int = 0
 private fun dfs(depth: Int) {
     if (depth == N) {
         ans++

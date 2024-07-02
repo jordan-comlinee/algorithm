@@ -1,8 +1,8 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-lateinit var stack: IntArray
-var ptr = -1
+private lateinit var stack: IntArray
+private var ptr = -1
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
