@@ -1,7 +1,7 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.StringTokenizer
-
+// https://velog.io/@kingdo/KotlinAlgorithm-11066-%ED%8C%8C%EC%9D%BC%ED%95%A9%EC%B9%98%EA%B8%B0
 fun main() {
     val br = System.`in`.bufferedReader()
     val t = br.readLine().toInt()
