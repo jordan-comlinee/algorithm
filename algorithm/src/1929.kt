@@ -7,8 +7,10 @@ fun main() = with(System.`in`.bufferedReader()) {
 }
 private fun getPrime(m : Int, n: Int){
     var isPrime = BooleanArray(n+1) {true}
+    // 제곱근까지만 판별
     val sqrt = sqrt(n.toDouble()).toInt()
     isPrime[1] = false
+    // 아리토스테네스의 체 원리
     for (i in 2..sqrt) {
         if (!isPrime[i]) continue
         else {
