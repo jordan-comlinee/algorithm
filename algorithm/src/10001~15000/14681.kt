@@ -1,3 +1,5 @@
+package `10000~15000`
+
 fun main() {
     val x = readLine()!!.toLong()
     val y = readLine()!!.toLong()

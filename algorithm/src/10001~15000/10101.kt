@@ -1,3 +1,5 @@
+package `10000~15000`
+
 import java.util.Scanner
 
 fun main() = with(Scanner(System.`in`)) {
