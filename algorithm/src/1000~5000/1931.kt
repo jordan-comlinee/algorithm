@@ -2,7 +2,6 @@ package `1000~5000`
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
-import java.nio.Buffer
 import java.util.StringTokenizer
 
 fun main() {
