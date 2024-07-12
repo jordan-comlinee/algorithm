@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\leeso\Desktop\C++\Algorithm_CPP\10week\중복 요소 제거\main.cpp(1,10): error C1083: 포함 파일을 열 수 없습니다. 'bits/stdc++.h': No such file or directory

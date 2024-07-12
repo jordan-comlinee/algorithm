@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\leeso\Desktop\C++\Algorithm_CPP\CodeUp100\1014\main.cpp(5,10): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\Users\leeso\Desktop\C++\Algorithm_CPP\CodeUp100\1014\main.cpp(5,10): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  1014.vcxproj -> C:\Users\leeso\Desktop\C++\Algorithm_CPP\CodeUp100\x64\Debug\1014.exe

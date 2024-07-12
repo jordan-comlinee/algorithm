@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\leeso\Desktop\C++\Algorithm_CPP\CodeUp100\1036\main.cpp(6,10): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  1036.vcxproj -> C:\Users\leeso\Desktop\C++\Algorithm_CPP\CodeUp100\x64\Debug\1036.exe
