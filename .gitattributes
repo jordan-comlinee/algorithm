@@ -1,0 +1,4 @@
+*.cpp linguist-detectable=true
+Algorithm_CPP/** linguist-vendored=false
+*.kt linguist-detectable=true
+algorithm/** linguist-vendored=false
