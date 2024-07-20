@@ -22,7 +22,7 @@ fun main() = with(Scanner(System.`in`)) {
     }
 }
 
-fun isPrime(num: Int): Boolean {
+private fun isPrime(num: Int): Boolean {
     if (num == 1) return false
 
     for (j in 2..num - 1) {
