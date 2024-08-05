@@ -6,6 +6,9 @@ import java.util.LinkedList
 import java.util.Queue
 import java.util.StringTokenizer
 
+// +1, -1이 조건에 포함되어 있기 때문에, 무한 회귀 문제가 발생할 수 있음
+// 이를 방지하기 위해 방문 처리가 필요함!!
+
 private var N = 0
 private var K = 0
 fun main() {
