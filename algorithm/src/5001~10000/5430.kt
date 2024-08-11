@@ -1,70 +1,32 @@
-package `5001~10000`
+import java.util.StringTokenizer
 
-import java.io.BufferedReader
-import java.io.BufferedWriter
-import java.io.InputStreamReader
-import java.io.OutputStreamWriter
-import java.util.LinkedList
-
-private var isReverse = false
-
-fun main() {
-    val br = BufferedReader(InputStreamReader(System.`in`))
-    val bw = BufferedWriter(OutputStreamWriter(System.out))
-    val T = br.readLine().toInt()
-    repeat(T) {
-        val p = br.readLine()
-        val n = br.readLine().toInt()
-        var x = input(br, n)
-        var isError = false
-        isReverse = false
-        p.forEach {
-            if (it == 'D' && x.size == 0) isError = true
-            else {
-                ac(it, x)
+fun main() = with(System.`in`.bufferedReader()) {
+    val bw = System.out.bufferedWriter()
+    var p: String
+    var arr: String
+    var st: StringTokenizer
+    loop@ for (i in 1..readLine().toInt()) {
+        val deque = ArrayDeque<Int>()
+        var isReversed = false	// 배열이 뒤집힌 상태인지 확인할 Boolean 변수
+        p = readLine()
+        readLine()
+        st = StringTokenizer(readLine().also { arr = it }.slice(1 until arr.lastIndex))
+        while (st.hasMoreTokens()) deque.add(st.nextToken(",").toInt())
+        for (c in p) {
+            when (c) {
+                'R' -> isReversed = !isReversed
+                'D' -> {
+                    if (deque.isEmpty()) {
+                        bw.write("error\n")
+                        continue@loop
+                    }
+                    if (isReversed) deque.removeLast()
+                    else deque.removeFirst()
+                }
             }
         }
-        if (isError) {
-            bw.write("error\n")
-        }
-        else {
-            if (isReverse) {
-                x.reverse()
-                bw.write("${x}\n")
-            }
-            else {
-                bw.write("${x}\n")
-            }
-        }
+        if (isReversed) deque.reverse()
+        bw.write("[${deque.joinToString(",")}]\n")
     }
-    bw.flush()
     bw.close()
-    br.close()
-}
-
-fun input(br : BufferedReader, n : Int) : LinkedList<Int> {
-    var result = LinkedList<Int>()
-    var x = br.readLine()
-    if (x.length > 2) {
-        x = x.substring(1, x.length-1)
-        val re = x.split(",").map { it.toInt() }
-        re.forEach {
-            result.offer(it)
-        }
-    }
-    return result
-}
-
-fun ac(p : Char, x : LinkedList<Int>) {
-    if (p == 'R') {
-        isReverse = !isReverse
-        return
-    }
-    else if (p == 'D') {
-        if (isReverse)
-            x.pollLast()
-        else
-            x.poll()
-        return
-    }
 }
