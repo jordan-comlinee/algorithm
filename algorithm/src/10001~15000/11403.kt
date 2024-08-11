@@ -44,7 +44,7 @@ fun main() {
 
 }
 
-fun bfs(i : Int, j : Int){
+private fun bfs(i : Int, j : Int){
     board[i][j] = 1
     for (k in 0 until N) {
         if (board[i][k] == 0 && board[j][k] == 1)
