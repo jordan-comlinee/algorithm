@@ -1,9 +1,7 @@
 package `10001~15000`
 
 import java.io.BufferedReader
-import java.io.BufferedWriter
 import java.io.InputStreamReader
-import java.io.OutputStreamWriter
 import kotlin.math.abs
 
 private var N = 0
