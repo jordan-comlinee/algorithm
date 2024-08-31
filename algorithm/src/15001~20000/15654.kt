@@ -30,7 +30,7 @@ private fun solution(idx : Int, len : Int, result : String) {
         bw.write(result.trim() + "\n")
         return
     }
-    for (i in idx until N ) {
+    for (i in idx ..< N ) {
         if (!visited[i]) {
             visited[i] = true
             solution(idx, len+1, "$result ${elements[i]}")
