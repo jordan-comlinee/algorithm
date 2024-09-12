@@ -33,7 +33,7 @@ fun main() {
     else println(result)
 
 }
-fun bfs(board : Array<IntArray>, queue : Queue<Pair<Int, Int>>) : Int {
+private fun bfs(board : Array<IntArray>, queue : Queue<Pair<Int, Int>>) : Int {
     var day = 0
     while (queue.isNotEmpty()) {
         val pair = queue.poll()
