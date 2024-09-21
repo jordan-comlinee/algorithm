@@ -24,13 +24,13 @@ fun main() {
     br.close()
 }
 
-fun solution(idx : Int, len : Int, str : String, bw : BufferedWriter) {
+private fun solution(idx : Int, len : Int, str : String, bw : BufferedWriter) {
     if (len == M) {
         bw.write("$str \n")
     }
     // 첫번째 수 고르기
     for (i in idx .. N) {
-        // 방문하지 않았다면 망문 처리 하기
+        // 방문하지 않았다면 방문 처리 하기
         if (!visited[i]) {
             visited[i] = true
             // 그 다음 방문 처리 점화식으로 작성하기
