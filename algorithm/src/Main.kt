@@ -1,5 +1,6 @@
 fun main() {
-    val A = mutableListOf<Int>()
-    A.add(3)
-    println(A[0])
+    var A : String = "slicing"
+    println(A.slice(0..3))
+    var slicedA = A.slice(0..A.length-1)
+    println("$A $slicedA")
 }
