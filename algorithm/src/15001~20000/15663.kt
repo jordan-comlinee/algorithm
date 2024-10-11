@@ -33,7 +33,7 @@ fun main() {
     print(sb.toString())
 }
 
-fun dfs(idx: Int, len: Int, str: String) {
+private fun dfs(idx: Int, len: Int, str: String) {
     if (len == m) {
         sb.append(str).append("\n")
         return
