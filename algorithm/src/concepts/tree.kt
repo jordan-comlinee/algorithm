@@ -2,13 +2,13 @@
 
 package concepts
 // 가장 기본적인 이진 트리를 정의하는 방법
-data class TreeNode<T> (
+private data class TreeNode<T> (
     var data : T,
     var left : TreeNode<T>? = null,
     var right : TreeNode<T>? = null
 )
 
-class Tree{
+private class Tree{
     var root : TreeNode<String>? = null
     fun add(data : String, left : String, right : String) {
         if (root == null) {
