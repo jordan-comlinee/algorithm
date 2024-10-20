@@ -4,47 +4,25 @@ import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 import java.util.StringTokenizer
 
-private lateinit var arr : Array<Int>
-private lateinit var visited : Array<Boolean>
-private var N = 0
-private var M = 0
-
-private val br = BufferedReader(InputStreamReader(System.`in`))
-private val st = StringTokenizer(br.readLine())
-private val bw = BufferedWriter(OutputStreamWriter(System.out))
-
-
 fun main() {
-    N = st.nextToken().toInt()
-    M = st.nextToken().toInt()
-    arr = Array(N){0}
-    visited = Array(N){false}
-    val st2 = StringTokenizer(br.readLine())
-    for (i in 0 until N) {
-        arr[i] = st2.nextToken().toInt()
+    val br = BufferedReader(InputStreamReader(System.`in`))
+    val bw = BufferedWriter(OutputStreamWriter(System.out))
+    val (N, M) = br.readLine().split(" ").map { it.toInt() }
+    val numbers = Array(N+1){Array(N+1){0}}
+    repeat(N) { x ->
+        val st = StringTokenizer(br.readLine())
+        repeat(N) { y ->
+            numbers[x+1][y+1] = st.nextToken().toInt()+numbers[x][y+1]+numbers[x+1][y]-numbers[x][y]
+        }
     }
-    arr.sort()
-    dfs(0, 0, "")
+
+    repeat(M) {
+        val (x1, y1, x2, y2) = br.readLine().split(" ").map { it.toInt() }
+        bw.write("${numbers[x2][y2] - numbers[x2][y1 - 1] - numbers[x1 - 1][y2] + numbers[x1 - 1][y1 - 1]}\n")
+    }
+
     bw.flush()
     bw.close()
     br.close()
 
-}
-
-private fun dfs(idx: Int, len: Int, st: String) {
-    if (len == M) {
-        bw.write(st.trim()+"\n")
-        return
-    }
-
-    var temp = 0
-
-    for (i in 0 until N) {
-        if (!visited[i] && temp != arr[i]) {
-            visited[i] = true
-            temp = arr[i]
-            dfs(i, len+1, "$st${arr[i]} ")
-            visited[i] = false
-        }
-    }
 }
