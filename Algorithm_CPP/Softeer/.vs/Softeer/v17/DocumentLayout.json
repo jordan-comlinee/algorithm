@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B8141E3-3055-458E-A86A-4CB6D0F9FA96}|\uAC15\uC758\uC2E4 \uBC30\uC815\\\uAC15\uC758\uC2E4 \uBC30\uC815.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B8141E3-3055-458E-A86A-4CB6D0F9FA96}|\uAC15\uC758\uC2E4 \uBC30\uC815\\\uAC15\uC758\uC2E4 \uBC30\uC815.vcxproj|solutionrelative:\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1491141-6D79-4E12-8539-39D144F0A24C}|\uC9D5\uAC80\uB2E4\uB9AC\\\uC9D5\uAC80\uB2E4\uB9AC.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC9D5\uAC80\uB2E4\uB9AC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E1491141-6D79-4E12-8539-39D144F0A24C}|\uC9D5\uAC80\uB2E4\uB9AC\\\uC9D5\uAC80\uB2E4\uB9AC.vcxproj|solutionrelative:\uC9D5\uAC80\uB2E4\uB9AC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E682E26A-84B5-4AD2-9EBE-D88A1D21A11E}|[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E682E26A-84B5-4AD2-9EBE-D88A1D21A11E}|[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot.vcxproj|solutionrelative:[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBD0C0DF-EEAE-4AA5-A984-9FF6A0D2B932}|\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CBD0C0DF-EEAE-4AA5-A984-9FF6A0D2B932}|\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0.vcxproj|solutionrelative:\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC9D5\uAC80\uB2E4\uB9AC\\main.cpp",
-              "RelativeDocumentMoniker": "\uC9D5\uAC80\uB2E4\uB9AC\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC9D5\uAC80\uB2E4\uB9AC\\main.cpp",
-              "RelativeToolTip": "\uC9D5\uAC80\uB2E4\uB9AC\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T05:08:23.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
-              "RelativeDocumentMoniker": "\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
-              "RelativeToolTip": "\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-29T00:20:50.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp",
-              "RelativeDocumentMoniker": "\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp",
-              "RelativeToolTip": "\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T05:19:11.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
               "RelativeDocumentMoniker": "[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
               "RelativeToolTip": "[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-28T08:13:00.632Z",
+              "WhenOpened": "2024-10-30T08:57:12.147Z",
               "EditorCaption": ""
             }
           ]
