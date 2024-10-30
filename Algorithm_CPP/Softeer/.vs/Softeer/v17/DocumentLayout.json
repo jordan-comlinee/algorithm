@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E682E26A-84B5-4AD2-9EBE-D88A1D21A11E}|[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E682E26A-84B5-4AD2-9EBE-D88A1D21A11E}|[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot.vcxproj|solutionrelative:[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{61417CD0-0911-4139-8CE9-62BD1431EEE9}|GBC\\GBC.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\GBC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61417CD0-0911-4139-8CE9-62BD1431EEE9}|GBC\\GBC.vcxproj|solutionrelative:GBC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAA81A1-BD7F-45C2-93D1-1DC1F2EA86FC}|[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DAA81A1-BD7F-45C2-93D1-1DC1F2EA86FC}|[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38.vcxproj|solutionrelative:[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
+              "RelativeDocumentMoniker": "[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
+              "RelativeToolTip": "[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T11:43:30.325Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
-              "RelativeDocumentMoniker": "[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
-              "RelativeToolTip": "[\uD55C\uC591\uB300 HCPC 2023] X marks the Spot\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAALAAAA",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\GBC\\main.cpp",
+              "RelativeDocumentMoniker": "GBC\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\GBC\\main.cpp",
+              "RelativeToolTip": "GBC\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T08:57:12.147Z",
+              "WhenOpened": "2024-10-30T11:43:45.307Z",
               "EditorCaption": ""
             }
           ]
