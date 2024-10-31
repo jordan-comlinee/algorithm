@@ -1,33 +1,32 @@
-#include <stdio.h>
-const int MAX = 20;
+#define _CRT_SECURE_NO_WARNINGS 
+#include <bits/stdc++.h>
 using namespace std;
-int dx[] = { -1, 1, 0, 0 };
-int dy[] = { 0, 0, -1, 1 };
-int n, m;
-int field[MAX][MAX];
-int check[MAX][MAX];
-int result=0;
-int m_list[3][2];
 
-void dfs(int x, int y) {
-	result += field[x][y];
-	for (int i = 0; i < 4; i++) {
-		int xx = x + dx[i];
-		int yy = y + dy[i];
-		if (0 < xx || xx >= n || 0 < yy || yy >= n) continue;
-		result += 
+int N, M;
+bool visited[21][21] = { false };
+int board[21][21];
+vector<pair<int, int>> friends;
+int dx[4] = { -1, 1, 0, 0 };
+int dy[4] = { 0, 0, -1, 1 };
+int result = 0;
+
+void bfs() {
+	while (!friends.empty()) {
 	}
 }
 
-int main(void) {
-	scanf_s("%d %d", &n, &m);
-	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++) {
-			scanf_s("%d", &field[i][j]);
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cin >> N >> M;
+	friends.resize(M);
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			cin >> board[i][j];
 		}
 	}
-	for (int i = 0; i < m; i++) {
-		scanf_s("%d %d", &m_list[i][0], &m_list[i][1]);
+	for (int i = 0; i < M; i++) {
+		cin >> friends[i].first >> friends[i].second;
 	}
-	return 0;
+	bfs();
 }

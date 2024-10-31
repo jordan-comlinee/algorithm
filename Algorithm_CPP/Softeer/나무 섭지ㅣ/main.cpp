@@ -3,12 +3,12 @@
 using namespace std;
 
 int N, M;
-pair<int, int> out, namwoo = make_pair(0, 0);
+pair<int, int> out, namwoo;
 vector<pair<int, int>> ghosts;
 vector<string> maze;
 bool escapable = false;
-int dx[5] = { 1, -1, 0, 0, 0 };
-int dy[5] = { 0, 0, 1, -1, 0 };
+int dx[4] = { 1, -1, 0, 0 };
+int dy[4] = { 0, 0, 1, -1 };
 bool visited[1000][1000] = { false };
 bool ghostVisited[1000][1000] = { false };
 
@@ -54,59 +54,63 @@ bool isInRange(int x, int y) {
 	else {
 		return false;
 	}
-}
-
-void moveGhosts(queue<pair<int, int>> ghostQueue) {
-	int size = ghostQueue.size();
-	for (int i = 0; i < size; i++){
-		int x = ghostQueue.front().first;
-		int y = ghostQueue.front().second;
-		ghostQueue.pop();
-		for (int j = 0; j < 4; j++) {
-			int nx = x + dx[j];
-			int ny = y + dy[j];
-			if (0 <= nx && nx < N && 0 <= ny && ny < M && !ghostVisited[nx][ny]) {
-				ghostVisited[nx][ny] = true;
-				ghostQueue.push(make_pair(nx, ny));
-			}
-		}
-	}
+}void moveGhosts(queue<pair<int, int>>& ghostQueue) {
+    int size = ghostQueue.size();
+    for (int i = 0; i < size; i++) {
+        int x = ghostQueue.front().first;
+        int y = ghostQueue.front().second;
+        ghostQueue.pop();
+        for (int j = 0; j < 4; j++) {
+            int nx = x + dx[j];
+            int ny = y + dy[j];
+            if (0 <= nx && nx < N && 0 <= ny && ny < M && !ghostVisited[nx][ny]) {
+                ghostVisited[nx][ny] = true;
+                ghostQueue.push({ nx, ny });
+            }
+        }
+    }
 }
 
 void bfs() {
-	queue<pair<int, int>> namwooQueue, ghostQueue;
-	namwooQueue.push(namwoo);
-	visited[namwoo.first][namwoo.second] = true;
-	for (pair<int, int> ghost: ghosts){
-		ghostQueue.push(ghost);
-		ghostVisited[ghost.first][ghost.second] = true;
-	}
-	while (!namwooQueue.empty()) {
-		int size = namwooQueue.size();
-		for (int i = 0; i < size; i++) {
-			int x = namwooQueue.front().first;
-			int y = namwooQueue.front().second;
-			namwooQueue.pop();
+    queue<pair<int, int>> namwooQueue, ghostQueue;
+    namwooQueue.push(namwoo);
+    visited[namwoo.first][namwoo.second] = true;
 
-			if (x == out.first && y == out.second){
-				escapable = true;
-				return;
-			}
+    for (pair<int, int> ghost : ghosts) {
+        ghostQueue.push(ghost);
+        ghostVisited[ghost.first][ghost.second] = true;
+    }
 
-			for (int j = 0; j < 4; j++) {
-				int nx = x + dx[j];
-				int ny = y + dy[j];
-				if (isInRange(nx,ny)) {
-					visited[nx][ny] = true;
-					namwooQueue.push(make_pair(nx, ny));
-				}
-			}
-		}
+    while (!namwooQueue.empty()) {
+        int size = namwooQueue.size();
 
-		moveGhosts(ghostQueue);
+        // 남우 이동
+        for (int i = 0; i < size; i++) {
+            int x = namwooQueue.front().first;
+            int y = namwooQueue.front().second;
+            namwooQueue.pop();
 
-	}
+            if (x == out.first && y == out.second) {
+                escapable = true;
+                return;
+            }
+
+            for (int j = 0; j < 4; j++) {
+                int nx = x + dx[j];
+                int ny = y + dy[j];
+                if (isInRange(nx, ny)) {
+                    visited[nx][ny] = true;
+                    namwooQueue.push({ nx, ny });
+                }
+            }
+        }
+
+        // 유령 이동
+        moveGhosts(ghostQueue);
+    }
 }
+
+
 
 
 int main() {
