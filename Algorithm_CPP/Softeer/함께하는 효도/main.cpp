@@ -5,6 +5,7 @@ using namespace std;
 int N, M;
 bool visited[21][21] = { false };
 int board[21][21];
+<<<<<<< HEAD
 int fx, fy;
 vector<pair<int, int>> friends;
 int dx[4] = { -1, 1, 0, 0 };
@@ -38,19 +39,34 @@ void dfs(int cnt, int apples) {
 				dfs(cnt + 1, newApples);
 			}
 		}
+=======
+vector<pair<int, int>> friends;
+int dx[4] = { -1, 1, 0, 0 };
+int dy[4] = { 0, 0, -1, 1 };
+int result = 0;
+
+void bfs() {
+	while (!friends.empty()) {
+>>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
 	}
 }
 
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
+<<<<<<< HEAD
 	int apple = 0;
 	cin >> N >> M;
+=======
+	cin >> N >> M;
+	friends.resize(M);
+>>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
 			cin >> board[i][j];
 		}
 	}
+<<<<<<< HEAD
 	for (int j = 0; j < M; j++) {
 		cin >> fx >> fy;
 		friends.push_back(make_pair(fx-1, fy-1));
@@ -59,4 +75,10 @@ int main() {
 	}
 
 	dfs
+=======
+	for (int i = 0; i < M; i++) {
+		cin >> friends[i].first >> friends[i].second;
+	}
+	bfs();
+>>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
 }
