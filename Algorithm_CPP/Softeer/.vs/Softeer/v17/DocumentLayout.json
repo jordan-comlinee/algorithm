@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02EF3A65-827A-4719-A5CA-AD695E779995}|\uB098\uBB34 \uACF5\uACA9\\\uB098\uBB34 \uACF5\uACA9.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uB098\uBB34 \uACF5\uACA9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02EF3A65-827A-4719-A5CA-AD695E779995}|\uB098\uBB34 \uACF5\uACA9\\\uB098\uBB34 \uACF5\uACA9.vcxproj|solutionrelative:\uB098\uBB34 \uACF5\uACA9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E973191E-9D59-4FD6-8048-673ACB0246C1}|[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E973191E-9D59-4FD6-8048-673ACB0246C1}|[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj|solutionrelative:[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uB098\uBB34 \uACF5\uACA9\\main.cpp",
+              "RelativeDocumentMoniker": "\uB098\uBB34 \uACF5\uACA9\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uB098\uBB34 \uACF5\uACA9\\main.cpp",
+              "RelativeToolTip": "\uB098\uBB34 \uACF5\uACA9\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T02:44:02.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp",
               "RelativeDocumentMoniker": "[HSAT 7\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp",
