@@ -3,7 +3,6 @@
 
 ### 😎 Algorithm Study using Python & Kotlin
 
-* I want to be a specialist in Embedded system & Android Programming
 * I'm using Kotlin right now, but soon C++ code will be added🥰
 
 ### My Goal
