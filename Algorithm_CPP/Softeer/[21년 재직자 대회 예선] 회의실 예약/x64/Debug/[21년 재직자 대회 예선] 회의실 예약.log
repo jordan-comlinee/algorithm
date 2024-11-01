@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert': 모든 인수 형식을 변환할 수 있는 오버로드된 함수가 없습니다.
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665:         with
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665:         [
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665:             _Kty=int,
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665:             _Ty=std::vector<int,std::allocator<int>>,
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665:             _Pr=std::less<int>,
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665:             _Alloc=std::allocator<std::pair<const int,std::vector<int,std::allocator<int>>>>
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[21년 재직자 대회 예선] 회의실 예약\main.cpp(15,15): error C2665:         ]

@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[한양대 HCPC 2023] Tren 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[한양대 HCPC 2023] Yeah, but How", "[한양대 HCPC 2023] Yeah, but How\[한양대 HCPC 2023] Yeah, but How.vcxproj", "{73C19F21-B42C-47E6-A1BB-69872704DE06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[21년 재직자 대회 예선] 회의실 예약", "[21년 재직자 대회 예선] 회의실 예약\[21년 재직자 대회 예선] 회의실 예약.vcxproj", "{E66CAA73-B912-4D33-98AC-8B803136F77E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -257,6 +259,14 @@ Global
 		{73C19F21-B42C-47E6-A1BB-69872704DE06}.Release|x64.Build.0 = Release|x64
 		{73C19F21-B42C-47E6-A1BB-69872704DE06}.Release|x86.ActiveCfg = Release|Win32
 		{73C19F21-B42C-47E6-A1BB-69872704DE06}.Release|x86.Build.0 = Release|Win32
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Debug|x64.ActiveCfg = Debug|x64
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Debug|x64.Build.0 = Debug|x64
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Debug|x86.ActiveCfg = Debug|Win32
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Debug|x86.Build.0 = Debug|Win32
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Release|x64.ActiveCfg = Release|x64
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Release|x64.Build.0 = Release|x64
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Release|x86.ActiveCfg = Release|Win32
+		{E66CAA73-B912-4D33-98AC-8B803136F77E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,6 +296,7 @@ Global
 		{02EF3A65-827A-4719-A5CA-AD695E779995} = {0953A63E-3C9D-4F9A-8336-84DD9A058FEB}
 		{BA825B7C-E211-46A3-8A48-AA0FA0F35F8C} = {E41D147D-3F98-4D6D-BB1A-C2B540106861}
 		{73C19F21-B42C-47E6-A1BB-69872704DE06} = {0953A63E-3C9D-4F9A-8336-84DD9A058FEB}
+		{E66CAA73-B912-4D33-98AC-8B803136F77E} = {0953A63E-3C9D-4F9A-8336-84DD9A058FEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D61883C9-825A-430B-A175-A1CBEB28EED6}
