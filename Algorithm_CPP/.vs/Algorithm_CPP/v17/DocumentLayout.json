@@ -3,21 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\",
   "Documents": [
     {
-<<<<<<< HEAD
-=======
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
->>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAE08\uACE0\uD138\uC774\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Softeer\\\uAE08\uACE0\uD138\uC774\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -29,16 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -48,65 +28,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-=======
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
-              "RelativeDocumentMoniker": "Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
-              "RelativeToolTip": "Softeer\\[HSAT 6\uD68C \uC815\uAE30 \uCF54\uB529 \uC778\uC99D\uD3C9\uAC00 \uAE30\uCD9C] \uCD9C\uD1F4\uADFC\uAE38\\main.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T12:35:55.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp",
-              "RelativeDocumentMoniker": "Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp",
-              "RelativeToolTip": "Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T04:47:53.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj",
-              "RelativeDocumentMoniker": "Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj",
-              "RelativeToolTip": "Softeer\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30\\\uC21C\uC11C\uB300\uB85C \uBC29\uBB38\uD558\uAE30.vcxproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
-              "WhenOpened": "2024-10-25T04:47:53.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.cpp",
->>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAE08\uACE0\uD138\uC774\\main.cpp",
               "RelativeDocumentMoniker": "Softeer\\\uAE08\uACE0\uD138\uC774\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAE08\uACE0\uD138\uC774\\main.cpp",
               "RelativeToolTip": "Softeer\\\uAE08\uACE0\uD138\uC774\\main.cpp",
-<<<<<<< HEAD
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-25T04:47:45.886Z",
               "EditorCaption": ""
-=======
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T04:47:45.886Z"
->>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
             }
           ]
         }

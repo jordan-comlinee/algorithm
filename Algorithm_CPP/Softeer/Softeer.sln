@@ -47,11 +47,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GBC", "GBC\GBC.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "나무 섭지", "나무 섭지ㅣ\나무 섭지ㅣ.vcxproj", "{E5DD11C9-B2DA-4B8F-B9C8-379E682E8186}"
 EndProject
-<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "전광판", "전광판\전광판.vcxproj", "{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB}"
 EndProject
-=======
->>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[HSAT 7회 정기 코딩 인증평가 기출] 순서대로 방문하기", "[HSAT 7회 정기 코딩 인증평가 기출] 순서대로 방문하기\[HSAT 7회 정기 코딩 인증평가 기출] 순서대로 방문하기.vcxproj", "{E973191E-9D59-4FD6-8048-673ACB0246C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -212,7 +211,6 @@ Global
 		{E5DD11C9-B2DA-4B8F-B9C8-379E682E8186}.Release|x64.Build.0 = Release|x64
 		{E5DD11C9-B2DA-4B8F-B9C8-379E682E8186}.Release|x86.ActiveCfg = Release|Win32
 		{E5DD11C9-B2DA-4B8F-B9C8-379E682E8186}.Release|x86.Build.0 = Release|Win32
-<<<<<<< HEAD
 		{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB}.Debug|x64.ActiveCfg = Debug|x64
 		{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB}.Debug|x64.Build.0 = Debug|x64
 		{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB}.Debug|x86.ActiveCfg = Debug|Win32
@@ -221,8 +219,14 @@ Global
 		{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB}.Release|x64.Build.0 = Release|x64
 		{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB}.Release|x86.ActiveCfg = Release|Win32
 		{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB}.Release|x86.Build.0 = Release|Win32
-=======
->>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Debug|x64.ActiveCfg = Debug|x64
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Debug|x64.Build.0 = Debug|x64
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Debug|x86.Build.0 = Debug|Win32
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Release|x64.ActiveCfg = Release|x64
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Release|x64.Build.0 = Release|x64
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Release|x86.ActiveCfg = Release|Win32
+		{E973191E-9D59-4FD6-8048-673ACB0246C1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -247,10 +251,8 @@ Global
 		{1DAA81A1-BD7F-45C2-93D1-1DC1F2EA86FC} = {8B57516A-5E03-4242-8B74-AB56439DE6DD}
 		{61417CD0-0911-4139-8CE9-62BD1431EEE9} = {0953A63E-3C9D-4F9A-8336-84DD9A058FEB}
 		{E5DD11C9-B2DA-4B8F-B9C8-379E682E8186} = {8B57516A-5E03-4242-8B74-AB56439DE6DD}
-<<<<<<< HEAD
 		{BFE08A36-5BF6-4202-9DE0-DB2F809AB3EB} = {0953A63E-3C9D-4F9A-8336-84DD9A058FEB}
-=======
->>>>>>> b41cce27ceb67237a4cac4b5433e8d20af125376
+		{E973191E-9D59-4FD6-8048-673ACB0246C1} = {8B57516A-5E03-4242-8B74-AB56439DE6DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D61883C9-825A-430B-A175-A1CBEB28EED6}
