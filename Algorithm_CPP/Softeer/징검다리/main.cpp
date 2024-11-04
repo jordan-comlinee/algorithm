@@ -23,7 +23,7 @@ int main() {
 		printf("%d", cnt[i]+1);
 	}
 
-	printf("%d", *max_element(cnt.begin(), cnt.end()));
-
+	printf("%d", *max_element(cnt.begin(), cnt.end())+1);
+	cout << *max_element(cnt.begin(), cnt.end())+1 << endl;
 	return 0;
 }

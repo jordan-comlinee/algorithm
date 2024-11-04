@@ -14,46 +14,46 @@ bool ghostVisited[1000][1000] = { false };
 
 
 void isEscapable() {
-	if (escapable) {
-		cout << "Yes" << endl;
-	}
-	else {
-		cout << "No" << endl;
-	}
+    if (escapable) {
+        cout << "Yes" << endl;
+    }
+    else {
+        cout << "No" << endl;
+    }
 }
 
 void printMazeInfo() {
-	cout << "===================" << endl;
-	for (int i = 0; i < N; i++) {
-		cout << maze[i] << endl;
-	}
-	cout << "===================" << endl;
-	cout << "namwoo: " << namwoo.first << " " << namwoo.second << endl;
-	cout << "out: "  << out.first << " " << out.second << endl;
-	for (pair<int, int> i : ghosts){
-		cout << "ghost: " << i.first << " " << i.second << endl;
-	}
+    cout << "===================" << endl;
+    for (int i = 0; i < N; i++) {
+        cout << maze[i] << endl;
+    }
+    cout << "===================" << endl;
+    cout << "namwoo: " << namwoo.first << " " << namwoo.second << endl;
+    cout << "out: " << out.first << " " << out.second << endl;
+    for (pair<int, int> i : ghosts) {
+        cout << "ghost: " << i.first << " " << i.second << endl;
+    }
 }
 
 void check(char n, int i, int j) {
-	if (n == 'D') {
-		out = make_pair(i, j);
-	}
-	else if (n == 'N') {
-		namwoo = make_pair(i, j);
-	}
-	else if(n == 'G') {
-		ghosts.push_back(make_pair(i, j));
-	}
+    if (n == 'D') {
+        out = make_pair(i, j);
+    }
+    else if (n == 'N') {
+        namwoo = make_pair(i, j);
+    }
+    else if (n == 'G') {
+        ghosts.push_back(make_pair(i, j));
+    }
 }
 
 bool isInRange(int x, int y) {
-	if (0 <= x && x < N && 0 <= y && y < M && (maze[x][y] == '.' || maze[x][y] == 'D') && !visited[x][y] && !ghostVisited[x][y]) {
-		return true;
-	}
-	else {
-		return false;
-	}
+    if (0 <= x && x < N && 0 <= y && y < M && (maze[x][y] == '.' || maze[x][y] == 'D') && !visited[x][y] && !ghostVisited[x][y]) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 void moveGhosts(queue<pair<int, int>>& ghostQueue) {
@@ -116,17 +116,17 @@ void bfs() {
 
 
 int main() {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cin >> N >> M;
-	maze.resize(N);
-	for (int i = 0; i < N; i++) {
-		cin >> maze[i];
-		for (int j = 0; j < M; j++) {
-			check(maze[i][j], i, j);
-		}
-	}
-	bfs();
-	isEscapable();
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cin >> N >> M;
+    maze.resize(N);
+    for (int i = 0; i < N; i++) {
+        cin >> maze[i];
+        for (int j = 0; j < M; j++) {
+            check(maze[i][j], i, j);
+        }
+    }
+    bfs();
+    isEscapable();
 }
 
