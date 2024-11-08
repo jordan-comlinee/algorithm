@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B8141E3-3055-458E-A86A-4CB6D0F9FA96}|\uAC15\uC758\uC2E4 \uBC30\uC815\\\uAC15\uC758\uC2E4 \uBC30\uC815.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B8141E3-3055-458E-A86A-4CB6D0F9FA96}|\uAC15\uC758\uC2E4 \uBC30\uC815\\\uAC15\uC758\uC2E4 \uBC30\uC815.vcxproj|solutionrelative:\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C234F9D4-3142-4650-B368-9CB8E4CEAD6C}|\uB098\uBB34 \uC12D\uC9C0\\\uB098\uBB34 \uC12D\uC9C0.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uB098\uBB34 \uC12D\uC9C0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C234F9D4-3142-4650-B368-9CB8E4CEAD6C}|\uB098\uBB34 \uC12D\uC9C0\\\uB098\uBB34 \uC12D\uC9C0.vcxproj|solutionrelative:\uB098\uBB34 \uC12D\uC9C0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uD55C\uC591\uB300 HCPC 2023] Yeah, but How\\main.cpp",
               "RelativeDocumentMoniker": "[\uD55C\uC591\uB300 HCPC 2023] Yeah, but How\\main.cpp",
@@ -35,12 +39,11 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T08:55:22.221Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC9C4\uC815\uD55C \uD6A8\uB3C4\\main.cpp",
               "RelativeDocumentMoniker": "\uC9C4\uC815\uD55C \uD6A8\uB3C4\\main.cpp",
@@ -52,6 +55,19 @@
               "IsPinned": true
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
+              "RelativeDocumentMoniker": "\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
+              "RelativeToolTip": "\uAC15\uC758\uC2E4 \uBC30\uC815\\main.cpp",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowBcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T01:08:54.874Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
@@ -61,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uB098\uBB34 \uC12D\uC9C0\\main.cpp",
               "RelativeDocumentMoniker": "\uB098\uBB34 \uC12D\uC9C0\\main.cpp",
