@@ -14,7 +14,7 @@ private var cnt = 0
 private val queue : Queue<Pair<Int, Int>> = LinkedList()
 private val dx = listOf(-1, 1, 0, 0)
 private val dy = listOf(0, 0, -1, 1)
-fun bfs() {
+private fun bfs() {
     while (queue.isNotEmpty()) {
         val current = queue.poll()
         val x = current.first
