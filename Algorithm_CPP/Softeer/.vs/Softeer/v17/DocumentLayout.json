@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3005F12-38C4-4E3D-A1F9-A5AA11ACE7FF}|View\\View.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\View\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D3005F12-38C4-4E3D-A1F9-A5AA11ACE7FF}|View\\View.vcxproj|solutionrelative:View\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B680ACF7-833A-4AF7-A1E9-38AA34A20727}|[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B680ACF7-833A-4AF7-A1E9-38AA34A20727}|[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC.vcxproj|solutionrelative:[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C234F9D4-3142-4650-B368-9CB8E4CEAD6C}|\uB098\uBB34 \uC12D\uC9C0\\\uB098\uBB34 \uC12D\uC9C0.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uB098\uBB34 \uC12D\uC9C0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C234F9D4-3142-4650-B368-9CB8E4CEAD6C}|\uB098\uBB34 \uC12D\uC9C0\\\uB098\uBB34 \uC12D\uC9C0.vcxproj|solutionrelative:\uB098\uBB34 \uC12D\uC9C0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B680ACF7-833A-4AF7-A1E9-38AA34A20727}|[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B680ACF7-833A-4AF7-A1E9-38AA34A20727}|[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC.vcxproj|solutionrelative:[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,24 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\View\\main.cpp",
-              "RelativeDocumentMoniker": "View\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\View\\main.cpp",
-              "RelativeToolTip": "View\\main.cpp",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAowBoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-12T06:07:25.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp",
               "RelativeDocumentMoniker": "[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp",
               "RelativeToolTip": "[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAIwG4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T10:06:31.42Z",
               "EditorCaption": ""
