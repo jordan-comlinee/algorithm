@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[SW 문제해결 기본] 3�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[SW 문제해결 기본] 4일차 - 거듭 제곱", "[SW 문제해결 기본] 4일차 - 거듭 제곱\[SW 문제해결 기본] 4일차 - 거듭 제곱.vcxproj", "{4BA06238-A8F1-4CC4-BC03-EFCBCEF547D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "재미있는 오셀로 게임", "재미있는 오셀로 게임\재미있는 오셀로 게임.vcxproj", "{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -339,6 +341,14 @@ Global
 		{4BA06238-A8F1-4CC4-BC03-EFCBCEF547D1}.Release|x64.Build.0 = Release|x64
 		{4BA06238-A8F1-4CC4-BC03-EFCBCEF547D1}.Release|x86.ActiveCfg = Release|Win32
 		{4BA06238-A8F1-4CC4-BC03-EFCBCEF547D1}.Release|x86.Build.0 = Release|Win32
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Debug|x64.ActiveCfg = Debug|x64
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Debug|x64.Build.0 = Debug|x64
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Debug|x86.Build.0 = Debug|Win32
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Release|x64.ActiveCfg = Release|x64
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Release|x64.Build.0 = Release|x64
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Release|x86.ActiveCfg = Release|Win32
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -376,6 +386,7 @@ Global
 		{391A3DB5-53E2-4E8A-9B32-13FE327C051B} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 		{DA6ACEC3-B42B-4550-8A65-3DC912677DAC} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 		{4BA06238-A8F1-4CC4-BC03-EFCBCEF547D1} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
+		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D61883C9-825A-430B-A175-A1CBEB28EED6}
