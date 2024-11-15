@@ -1,3 +1,4 @@
+// 실행 시간 : 0.01080s
 #define _CRT_SECURE_NO_WARNINGS 
 #include <bits/stdc++.h>
 using namespace std;
