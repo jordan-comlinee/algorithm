@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}|\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}|\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218.vcxproj|solutionrelative:\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD21C930-D5BE-450C-88A9-6A1492183DF2}|\uC5F0\uC2B5\uC6A9\\\uC5F0\uC2B5\uC6A9.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC5F0\uC2B5\uC6A9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BD21C930-D5BE-450C-88A9-6A1492183DF2}|\uC5F0\uC2B5\uC6A9\\\uC5F0\uC2B5\uC6A9.vcxproj|solutionrelative:\uC5F0\uC2B5\uC6A9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\main.cpp",
+              "RelativeDocumentMoniker": "\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\main.cpp",
+              "RelativeToolTip": "\uC815\uACE4\uC774\uC758 \uB2E8\uC870 \uC99D\uAC00\uD558\uB294 \uC218\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-16T05:29:53.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp",
               "RelativeDocumentMoniker": "[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp",
@@ -38,18 +55,17 @@
               "RelativeToolTip": "[\uBAA8\uC758 SW \uC5ED\uB7C9\uD14C\uC2A4\uD2B8] \uBBF8\uC0DD\uBB3C \uACA9\uB9AC\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T06:58:34.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T06:58:34.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC5F0\uC2B5\uC6A9\\main.cpp",
               "RelativeDocumentMoniker": "\uC5F0\uC2B5\uC6A9\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC5F0\uC2B5\uC6A9\\main.cpp",
               "RelativeToolTip": "\uC5F0\uC2B5\uC6A9\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-15T06:02:38.166Z",
               "EditorCaption": ""

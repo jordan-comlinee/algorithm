@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Knapsack", "Knapsack\Knapsa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "연습용", "연습용\연습용.vcxproj", "{BD21C930-D5BE-450C-88A9-6A1492183DF2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "정곤이의 단조 증가하는 수", "정곤이의 단조 증가하는 수\정곤이의 단조 증가하는 수.vcxproj", "{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -369,6 +371,14 @@ Global
 		{BD21C930-D5BE-450C-88A9-6A1492183DF2}.Release|x64.Build.0 = Release|x64
 		{BD21C930-D5BE-450C-88A9-6A1492183DF2}.Release|x86.ActiveCfg = Release|Win32
 		{BD21C930-D5BE-450C-88A9-6A1492183DF2}.Release|x86.Build.0 = Release|Win32
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Debug|x64.ActiveCfg = Debug|x64
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Debug|x64.Build.0 = Debug|x64
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Debug|x86.Build.0 = Debug|Win32
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Release|x64.ActiveCfg = Release|x64
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Release|x64.Build.0 = Release|x64
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Release|x86.ActiveCfg = Release|Win32
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -409,6 +419,7 @@ Global
 		{DD46ED1B-DEDE-49DD-8AC4-B958057D1E57} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 		{45790E14-8F2A-4C45-AD33-DFAC0CDDBD43} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 		{BD21C930-D5BE-450C-88A9-6A1492183DF2} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
+		{AD9092F5-E966-4B50-B7A8-5EDCCA3A3ACB} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D61883C9-825A-430B-A175-A1CBEB28EED6}
