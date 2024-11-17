@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[SW 문제해결 기본] 1일차 - Flatten\main.cpp(9,14): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\[SW 문제해결 기본] 1일차 - Flatten\main.cpp(10,14): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  [SW 문제해결 기본] 1일차 - Flatten.vcxproj -> C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\x64\Debug\[SW 문제해결 기본] 1일차 - Flatten.exe
