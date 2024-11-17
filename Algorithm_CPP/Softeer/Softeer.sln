@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[SW 문제해결 기본] 1�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "높은 곳으로", "높은 곳으로\높은 곳으로.vcxproj", "{20283EBC-3754-4859-A04A-EE02D46D96A5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "햄버거 다이어트", "햄버거 다이어트\햄버거 다이어트.vcxproj", "{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -419,6 +421,14 @@ Global
 		{20283EBC-3754-4859-A04A-EE02D46D96A5}.Release|x64.Build.0 = Release|x64
 		{20283EBC-3754-4859-A04A-EE02D46D96A5}.Release|x86.ActiveCfg = Release|Win32
 		{20283EBC-3754-4859-A04A-EE02D46D96A5}.Release|x86.Build.0 = Release|Win32
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Debug|x64.ActiveCfg = Debug|x64
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Debug|x64.Build.0 = Debug|x64
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Debug|x86.Build.0 = Debug|Win32
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Release|x64.ActiveCfg = Release|x64
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Release|x64.Build.0 = Release|x64
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Release|x86.ActiveCfg = Release|Win32
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -464,6 +474,7 @@ Global
 		{DB55C818-7B9C-4C25-B0A1-3D7B96758DEA} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 		{C93669F7-B46D-4E52-A830-757CF75D8E62} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 		{20283EBC-3754-4859-A04A-EE02D46D96A5} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
+		{83D999AE-1E9C-47DF-B3E9-DC489DBC85DE} = {10E9952E-4875-4570-9D5F-E39DD05A5310}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D61883C9-825A-430B-A175-A1CBEB28EED6}
