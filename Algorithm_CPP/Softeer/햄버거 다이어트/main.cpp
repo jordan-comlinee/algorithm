@@ -7,19 +7,16 @@ vector<pair<int, int>> ingredient;
 
 void dfs(int index, int score, int kcal) {
 	if (kcal > L) {
-		return; // 칼로리 제한 초과 시 종료
+		return;
 	}
 	if (score > result) {
 		result = score;
 	}
 	if (index == N) {
-		return; // 모든 재료 탐색 완료 시 종료
+		return;
 	}
 
-	// 현재 재료 포함
 	dfs(index + 1, score + ingredient[index].first, kcal + ingredient[index].second);
-
-	// 현재 재료 미포함
 	dfs(index + 1, score, kcal);
 }
 
