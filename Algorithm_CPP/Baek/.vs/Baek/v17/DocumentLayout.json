@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C326B34E-5E25-47ED-A901-CF34928FCACE}|10815\\10815.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\10815\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C326B34E-5E25-47ED-A901-CF34928FCACE}|10815\\10815.vcxproj|solutionrelative:10815\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F493A49D-6092-4792-B7B3-F46D24CA7EBB}|14500\\14500.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\14500\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F493A49D-6092-4792-B7B3-F46D24CA7EBB}|14500\\14500.vcxproj|solutionrelative:14500\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3264A4-508D-4A2D-9AF9-72826271FF53}|16928\\16928.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\16928\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B3264A4-508D-4A2D-9AF9-72826271FF53}|16928\\16928.vcxproj|solutionrelative:16928\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C26CF474-5FA5-4D7F-A560-BE2F9A5C6A8B}|4179\\4179.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\4179\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C26CF474-5FA5-4D7F-A560-BE2F9A5C6A8B}|4179\\4179.vcxproj|solutionrelative:4179\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -32,8 +44,50 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\10815\\main.cpp",
+              "RelativeDocumentMoniker": "10815\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\10815\\main.cpp",
+              "RelativeToolTip": "10815\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-23T10:31:55.142Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\14500\\main.cpp",
+              "RelativeDocumentMoniker": "14500\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\14500\\main.cpp",
+              "RelativeToolTip": "14500\\main.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T07:34:09.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\16928\\main.cpp",
+              "RelativeDocumentMoniker": "16928\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\16928\\main.cpp",
+              "RelativeToolTip": "16928\\main.cpp",
+              "ViewState": "AQIAACgAAAAAAAAAAADwvzgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T06:25:26.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uB098\uBB34 \uC12D\uC9C0\\main.cpp",
               "RelativeDocumentMoniker": "..\\Softeer\\\uB098\uBB34 \uC12D\uC9C0\\main.cpp",
@@ -41,25 +95,23 @@
               "RelativeToolTip": "..\\Softeer\\\uB098\uBB34 \uC12D\uC9C0\\main.cpp",
               "ViewState": "AQIAACQAAAAAAAAAAADwvzIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-04T01:26:22.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T01:26:22.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\4179\\main.cpp",
               "RelativeDocumentMoniker": "4179\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\4179\\main.cpp",
               "RelativeToolTip": "4179\\main.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowA4AAAAUAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAA4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-04T00:48:23.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T00:48:23.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2309\\main.cpp",
               "RelativeDocumentMoniker": "2309\\main.cpp",
@@ -67,8 +119,7 @@
               "RelativeToolTip": "2309\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-04T00:48:06.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T00:48:06.011Z"
             }
           ]
         }

@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Baek",
-    "\\Baek\\4179",
-    "\\Softeer",
-    "\\Softeer\\[SW \uBB38\uC81C\uD574\uACB0 \uAE30\uBCF8] 1\uC77C\uCC28 - Flatten",
-    "\\Softeer\\\uD328\uD134 \uB9C8\uB514\uC758 \uAE38\uC774",
-    "\\Softeer\\\uD584\uBC84\uAC70 \uB2E4\uC774\uC5B4\uD2B8"
+    "\\Baek\\14500",
+    "\\Softeer"
   ],
-  "SelectedNode": "\\Softeer\\[SW \uBB38\uC81C\uD574\uACB0 \uAE30\uBCF8] 1\uC77C\uCC28 - Flatten\\main.cpp",
+  "SelectedNode": "\\Baek\\14500\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
