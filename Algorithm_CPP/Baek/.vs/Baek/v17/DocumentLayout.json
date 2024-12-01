@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49D631C5-5094-47F8-B246-9CEEB2951704}|13460\\13460.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\13460\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49D631C5-5094-47F8-B246-9CEEB2951704}|13460\\13460.vcxproj|solutionrelative:13460\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{001143E4-F10D-4278-9586-DEB3D2793436}|1753\\1753.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1753\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{001143E4-F10D-4278-9586-DEB3D2793436}|1753\\1753.vcxproj|solutionrelative:1753\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -36,6 +40,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\13460\\main.cpp",
+              "RelativeDocumentMoniker": "13460\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\13460\\main.cpp",
+              "RelativeToolTip": "13460\\main.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvyEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T05:49:00.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1753\\main.cpp",
               "RelativeDocumentMoniker": "1753\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1753\\main.cpp",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1967\\main.cpp",
               "RelativeDocumentMoniker": "1967\\main.cpp",
@@ -55,8 +72,7 @@
               "RelativeToolTip": "1967\\main.cpp",
               "ViewState": "AQIAABEAAAAAAAAAAADwvywAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T03:13:03.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T03:13:03.978Z"
             }
           ]
         }
