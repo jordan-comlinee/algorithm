@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leeso\\source\\repos\\programmers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3150850-8385-4EF9-978A-7A86FEFFB639}|\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\\uB2EC\uB9AC\uAE30 \uACBD\uC8FC.vcxproj|C:\\Users\\leeso\\source\\repos\\programmers\\\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3150850-8385-4EF9-978A-7A86FEFFB639}|\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\\uB2EC\uB9AC\uAE30 \uACBD\uC8FC.vcxproj|solutionrelative:\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84352C4E-3E9E-46C4-B87C-2B8BCA2EC25F}|[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D.vcxproj|C:\\Users\\leeso\\source\\repos\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84352C4E-3E9E-46C4-B87C-2B8BCA2EC25F}|[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D.vcxproj|solutionrelative:[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\source\\repos\\programmers\\\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\main.cpp",
+              "RelativeDocumentMoniker": "\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\source\\repos\\programmers\\\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\main.cpp",
+              "RelativeToolTip": "\uB2EC\uB9AC\uAE30 \uACBD\uC8FC\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T00:43:18.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\source\\repos\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "RelativeDocumentMoniker": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\source\\repos\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "RelativeToolTip": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T00:40:59.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
