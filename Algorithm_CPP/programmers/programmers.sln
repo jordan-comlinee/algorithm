@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "달리기 경주", "달리�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "추억 점수", "추억 점수\추억 점수.vcxproj", "{BE90DF18-893B-4D65-82E6-13E6C5A47907}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "요격 시스템", "요격 시스템\요격 시스템.vcxproj", "{E5421B5E-AEC8-498E-957B-7D12AAFC1494}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{BE90DF18-893B-4D65-82E6-13E6C5A47907}.Release|x64.Build.0 = Release|x64
 		{BE90DF18-893B-4D65-82E6-13E6C5A47907}.Release|x86.ActiveCfg = Release|Win32
 		{BE90DF18-893B-4D65-82E6-13E6C5A47907}.Release|x86.Build.0 = Release|Win32
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Debug|x64.ActiveCfg = Debug|x64
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Debug|x64.Build.0 = Debug|x64
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Debug|x86.Build.0 = Debug|Win32
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Release|x64.ActiveCfg = Release|x64
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Release|x64.Build.0 = Release|x64
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Release|x86.ActiveCfg = Release|Win32
+		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
