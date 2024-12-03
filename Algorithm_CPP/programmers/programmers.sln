@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "추억 점수", "추억 점
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "요격 시스템", "요격 시스템\요격 시스템.vcxproj", "{E5421B5E-AEC8-498E-957B-7D12AAFC1494}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "숫자 변환하기", "숫자 변환하기\숫자 변환하기.vcxproj", "{F4B24E08-73A7-4028-8932-BD626773A8F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Release|x64.Build.0 = Release|x64
 		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Release|x86.ActiveCfg = Release|Win32
 		{E5421B5E-AEC8-498E-957B-7D12AAFC1494}.Release|x86.Build.0 = Release|Win32
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Debug|x64.ActiveCfg = Debug|x64
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Debug|x64.Build.0 = Debug|x64
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Debug|x86.Build.0 = Debug|Win32
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Release|x64.ActiveCfg = Release|x64
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Release|x64.Build.0 = Release|x64
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Release|x86.ActiveCfg = Release|Win32
+		{F4B24E08-73A7-4028-8932-BD626773A8F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

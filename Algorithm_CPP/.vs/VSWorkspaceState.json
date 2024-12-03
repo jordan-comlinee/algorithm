@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Baek",
     "\\programmers",
-    "\\programmers\\\uCD94\uC5B5 \uC810\uC218"
+    "\\programmers\\\uCD94\uC5B5 \uC810\uC218",
+    "\\Softeer\\[SW \uBB38\uC81C\uD574\uACB0 \uAE30\uBCF8] 1\uC77C\uCC28 - Flatten",
+    "\\Softeer\\[SW \uBB38\uC81C\uD574\uACB0 \uAE30\uBCF8] 3\uC77C\uCC28 - String"
   ],
-  "SelectedNode": "\\programmers\\\uCD94\uC5B5 \uC810\uC218\\main.cpp",
+  "SelectedNode": "\\programmers\\programmers.sln",
   "PreviewInSolutionExplorer": false
 }
