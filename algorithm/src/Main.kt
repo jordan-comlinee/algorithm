@@ -1,49 +1,40 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
+import java.util.StringTokenizer
 
-private var N = 0
-private lateinit var painting : Array<CharArray>
-private lateinit var visited : Array<BooleanArray>
-private var moving = arrayOf(Pair(1, 0), Pair(-1, 0), Pair(0, 1), Pair(0, -1))
+private var n = 0
+private var nodes = mutableMapOf<Int, ArrayList<Pair<Int, Int>>>()
 
-fun isComplicated(time_prev: Int, time_cur: Int, diff: Int, level: Int) : Int{
-    return (time_cur + time_prev)*(diff - level) + time_cur
-}
-
-fun calculateTotalTime(diffs : IntArray, times : IntArray, limit : Long, minLevel : Int) : Long {
-    var totalTime = 0L
-    for(i in diffs.indices) {
-        if(minLevel >= diffs[i]) {
-            totalTime += times[i]
-        }
-        else {
-            totalTime += isComplicated(times.getOrElse(i-1) {0}, times[i], diffs[i], minLevel)
-        }
-        if (totalTime > limit) {
-            return totalTime
-        }
+private var result = 0
+private var farthestNode = 0
+fun dfs(start : Int, length : Int, visited : BooleanArray) {
+    visited[start] = true
+    if (length > result) {
+        result = length
+        farthestNode = start
     }
-    return totalTime
-}
-
-fun solution(diffs: IntArray, times: IntArray, limit: Long) : Int {
-    var low = 1
-    var high = diffs.maxOrNull()?:100000
-    while (low <= high) {
-        val mid = (low+high)/2
-        val totalTime = calculateTotalTime(diffs, times, limit, mid)
-        if (totalTime > limit) {
-            low = mid + 1
-        }
-        else {
-            high = mid - 1
-        }
+    for (neighbor in nodes[start]?:ArrayList()) {
+      var next = neighbor.first
+      var weight = neighbor.second
+      if (!visited[next]) {
+          dfs(next, length+weight, visited)
+      }
     }
-    return low
 }
 
 fun main() {
-    val br = BufferedReader(InputStreamReader(System.`in`))
-    var result = 0
+    var br = BufferedReader(InputStreamReader(System.`in`))
+    var visited = BooleanArray(10001){false}
+    n = br.readLine().toInt()
+    repeat(n-1) {
+        val (start, end, length) = br.readLine().split(" ").map { it.toInt() }
+        nodes.getOrPut(start) {ArrayList()}.add(Pair(end, length))
+        nodes.getOrPut(end) {ArrayList()}.add(Pair(start, length))
+    }
+
+    dfs(1, 0, visited)
+    visited.fill(false)
+    dfs(farthestNode, 0, visited)
+    println("$result")
 
 }
