@@ -1,5 +1,5 @@
 import sys
-
+'''
 def isComplicated(time_prev, time_cur, diff, level) :
     return (time_cur + time_prev) * (diff - level) + time_cur
 
@@ -11,3 +11,4 @@ def solution(diffs, times, limit):
     high = max(int)
     print(high)
     return answer
+'''

@@ -25,6 +25,9 @@ fun main(){
         classes.add(Pair(S, T))
     }
     classes.sortWith(compareBy({it.first}, {it.second}))
+    for(i in 0 until classes.size) {
+        println("${classes[i].first} ${classes[i].second}")
+    }
     countMaxClass(classes)
     println(cnt)
 }
