@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63B9E127-60FA-4BD1-85DD-3F3F4B8114B3}|practice\\practice.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\practice\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63B9E127-60FA-4BD1-85DD-3F3F4B8114B3}|practice\\practice.vcxproj|solutionrelative:practice\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C4C340D-34B8-4164-B712-3206825FCD62}|1098\\1098.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\1098\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4C4C340D-34B8-4164-B712-3206825FCD62}|1098\\1098.vcxproj|solutionrelative:1098\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CE67316-2E96-4EA0-B38F-4DE479B34274}|1060\\1060.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\1060\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2CE67316-2E96-4EA0-B38F-4DE479B34274}|1060\\1060.vcxproj|solutionrelative:1060\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B9E127-60FA-4BD1-85DD-3F3F4B8114B3}|practice\\practice.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\practice\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{63B9E127-60FA-4BD1-85DD-3F3F4B8114B3}|practice\\practice.vcxproj|solutionrelative:practice\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\1098\\main.cpp",
               "RelativeDocumentMoniker": "1098\\main.cpp",
@@ -39,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\1060\\main.cpp",
               "RelativeDocumentMoniker": "1060\\main.cpp",
@@ -47,18 +59,17 @@
               "RelativeToolTip": "1060\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T00:28:25.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T00:28:25.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\practice\\main.cpp",
               "RelativeDocumentMoniker": "practice\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\CodeUp100\\practice\\main.cpp",
               "RelativeToolTip": "practice\\main.cpp",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-28T23:13:03.524Z",
               "EditorCaption": ""
