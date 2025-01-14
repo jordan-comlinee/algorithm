@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// 시간 초과 문제
 /*
 int main() {
 	ios::sync_with_stdio(false);
@@ -32,10 +33,6 @@ int main() {
 	return 0;
 }
 */
-
-#include <bits/stdc++.h>
-using namespace std;
-
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
