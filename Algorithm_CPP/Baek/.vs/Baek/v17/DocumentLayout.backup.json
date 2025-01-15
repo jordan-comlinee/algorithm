@@ -48,10 +48,9 @@
               "RelativeDocumentMoniker": "2531\\main.c",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2531\\main.c",
               "RelativeToolTip": "2531\\main.c",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwJUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-13T23:36:15.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T23:36:15.583Z"
             },
             {
               "$type": "Document",
@@ -59,9 +58,9 @@
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2563\\main.c",
               "RelativeDocumentMoniker": "2563\\main.c",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2563\\main.c*",
-              "RelativeToolTip": "2563\\main.c*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2563\\main.c",
+              "RelativeToolTip": "2563\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-15T02:42:11.777Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "2563\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T02:17:14.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T02:17:14.57Z"
             }
           ]
         }

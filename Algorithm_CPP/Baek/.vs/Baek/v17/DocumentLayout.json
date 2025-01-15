@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A064A795-83BA-408A-BB02-31F32BD7CFA5}|2667\\2667.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2667\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A064A795-83BA-408A-BB02-31F32BD7CFA5}|2667\\2667.vcxproj|solutionrelative:2667\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6623393E-6A43-46F6-866E-944AD7635356}|2563\\2563.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2563\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6623393E-6A43-46F6-866E-944AD7635356}|2563\\2563.vcxproj|solutionrelative:2563\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2667\\main.cpp",
+              "RelativeDocumentMoniker": "2667\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2667\\main.cpp",
+              "RelativeToolTip": "2667\\main.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-15T23:43:22.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2531\\main.c",
               "RelativeDocumentMoniker": "2531\\main.c",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "2531\\main.c",
               "ViewState": "AgIAAC4AAAAAAAAAAAAkwJUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-13T23:36:15.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T23:36:15.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2563\\main.c",
               "RelativeDocumentMoniker": "2563\\main.c",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2563\\main.cpp",
               "RelativeDocumentMoniker": "2563\\main.cpp",
@@ -76,8 +92,7 @@
               "RelativeToolTip": "2563\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T02:17:14.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T02:17:14.57Z"
             }
           ]
         }
