@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\2563\main.c(18,8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\2563\main.c(20,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  2563.vcxproj -> C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\x64\Debug\2563.exe
