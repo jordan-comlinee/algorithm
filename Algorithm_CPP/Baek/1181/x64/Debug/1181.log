@@ -1,0 +1,20 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4267: '초기화 중': 'size_t'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4267:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4267:         ]
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\1181\main.cpp(16,18):
+          컴파일되는 함수 템플릿 인스턴스화 'std::pair<int,std::string>::pair<unsigned __int64,std::string&,0>(_Other1 &&,_Other2) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=std::string &
+          ]
+              C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\1181\main.cpp(16,17):
+              'main'에서 'std::pair<int,std::string>::pair'에 대한 첫 번째 참조를 확인하세요.
+  
+  1181.vcxproj -> C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\x64\Debug\1181.exe
