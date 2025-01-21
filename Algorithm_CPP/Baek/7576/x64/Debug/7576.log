@@ -1,0 +1,5 @@
+﻿  queue.c
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\7576\queue.c(11,24): warning C4013: 'calloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\7576\queue.c(11,12): warning C4312: '형식 캐스트': 'int'에서 더 큰 'ListQueue *'(으)로의 변환입니다.
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\7576\queue.c(24,12): warning C4312: '형식 캐스트': 'int'에서 더 큰 'Node *'(으)로의 변환입니다.
+  7576.vcxproj -> C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Baek\x64\Debug\7576.exe

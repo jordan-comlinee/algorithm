@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int N, M, result, maxValue = 0;
+int N, M, maps, maxValue = 0;
 int board[501][501] = { 0 };
 bool visited[501][501] = { false };
 int dx[4] = { 1, -1, 0, 0 };
 int dy[4] = { 0, 0, -1, 1 };
 
 void dfs(int n, int m , int depth, int hap) {
-	if (hap + (3 - depth) * maxValue <= result) return;
+	if (hap + (3 - depth) * maxValue <= maps) return;
 	if (depth == 3) {
-		result = max(result, hap);
+		maps = max(maps, hap);
 	}
 	for (int i = 0; i < 4; i++) {
 		int nx = n + dx[i];
@@ -43,7 +43,7 @@ void checkOtherShape(int n, int m) {
 			sum += board[nx][ny];
 		}
 		if (valid){
-			result = max(result, sum);
+			maps = max(maps, sum);
 		}
 	}
 }
@@ -67,5 +67,5 @@ int main() {
 			checkOtherShape(n, m);
 		}
 	}
-	cout << result << endl;
+	cout << maps << endl;
 }

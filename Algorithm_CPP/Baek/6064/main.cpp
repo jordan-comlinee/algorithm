@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int T, M, N, x, y, result = -1;
+int T, M, N, x, y, maps = -1;
 
 int gcd(int a, int b) {
 	return b == 0 ? a : gcd(b, a % b);
@@ -16,17 +16,17 @@ int main() {
 	cin.tie(NULL);
 	cin >> T;
 	for (int t = 0; t < T; t++) {
-		result = -1;
+		maps = -1;
 		cin >> M >> N >> x >> y;
 		int LCM = lcm(M, N);
 		for (int i = x; i <= LCM; i+=M) {
 			int ny = (i % N == 0) ? N : (i % N);
 			if (ny == y) {
-				result = i;
+				maps = i;
 				break;
 			}
 		}
-		cout << result << endl;
+		cout << maps << endl;
 	}
 	
 }

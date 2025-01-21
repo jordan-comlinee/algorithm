@@ -18,7 +18,7 @@ int main(void) {
 	//(void)freopen("input.txt", "r", stdin);
 	init_editor();
 	solution();
-	print_editor();
+	DLL_print(&head);
 	return 0;
 }
 
@@ -31,12 +31,6 @@ void init_editor() {
 		DLL_InsertBefore(&tail, DLL_CreateNode(editor[i]));
 	}
 	cursor = &tail;
-	return;
-}
-
-void print_editor() {
-	DLL_print(&head);
-	//printf("%d %d\n", N_size, cursor);
 	return;
 }
 

@@ -3,7 +3,7 @@ using namespace std;
 
 int N, M, a;
 int hasCard[20000000] = {0};
-string result;
+string maps;
 
 int main() {
 	ios::sync_with_stdio(false);
@@ -17,8 +17,8 @@ int main() {
 	cin >> M;
 	for (int m = 0; m < M; m++){
 		cin >> a;
-		result += to_string(hasCard[a + 10000000]) + " ";
+		maps += to_string(hasCard[a + 10000000]) + " ";
 	}
-	cout << result << endl;
+	cout << maps << endl;
 
 }

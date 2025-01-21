@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
-	int result = 0;
+	int maps = 0;
 	int N, d, k, c;
 	cin >> N >> d >> k >> c;
 	vector<int> sushi;
@@ -24,12 +24,12 @@ int main() {
 			sushi_set.insert(sushi[i + j]);
 		}
 		sushi_set.insert(c);
-		result = result < sushi_set.size() ? sushi_set.size() : result;
-		if (result == k+1) {
+		maps = maps < sushi_set.size() ? sushi_set.size() : maps;
+		if (maps == k+1) {
 			break;
 		}
 	}
-	printf("%d\n", result);
+	printf("%d\n", maps);
 	return 0;
 }
 */
@@ -45,12 +45,12 @@ int main() {
     }
     map<int, int> sushi_count;
     int current_unique = 0;             // 초밥 종류 수
-    int result = 0;
+    int maps = 0;
     for (int i = 0; i < k; ++i) {
         if (sushi_count[sushi[i]] == 0) current_unique++;
         sushi_count[sushi[i]]++;
     }
-    result = current_unique + (sushi_count[c] == 0 ? 1 : 0);
+    maps = current_unique + (sushi_count[c] == 0 ? 1 : 0);
     for (int i = 0; i < N; ++i) {
         int start = i;
         int end = (i + k) % N;
@@ -62,9 +62,9 @@ int main() {
         }
 
         // 결과 갱신
-        result = max(result, current_unique + (sushi_count[c] == 0 ? 1 : 0));
+        maps = max(maps, current_unique + (sushi_count[c] == 0 ? 1 : 0));
     }
 
-    cout << result << '\n';
+    cout << maps << '\n';
     return 0;
 }

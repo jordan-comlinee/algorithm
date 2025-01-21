@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int N, M, result = 0;
+int N, M, maps = 0;
 int a, b;
 map<int, int> ladder, snake;
 int board[101] = { 0 };
@@ -17,7 +17,7 @@ void bfs() {
 		visit.pop();
 
 		if (current == 100){
-			result = visited[current];
+			maps = visited[current];
 			return;
 		}
 
@@ -55,5 +55,5 @@ int main() {
 		board[a] = SNAKE;
 	}
 	bfs();
-	cout << result << endl;
+	cout << maps << endl;
 }

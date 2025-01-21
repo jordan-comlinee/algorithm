@@ -8,7 +8,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	int t, result = 0;							// t = 색종이 개수, result = 면적(답)
+	int t, maps = 0;							// t = 색종이 개수, maps = 면적(답)
 	bool dohwaji[MAX + 1][MAX + 1] = { false };	// 도화지
 	vector<pair<int, int>> paper(MAX);			// 각 색종이의 위치
 
@@ -25,12 +25,12 @@ int main() {
 			for (int y = 0; y < 10; ++y) {
 				if (!dohwaji[X + x][Y + y]) {
 					dohwaji[X + x][Y + y] = true;
-					++result;
+					++maps;
 				}
 			}
 		}
 	}
-	cout << result << endl;
+	cout << maps << endl;
 	return 0;
 }
 #endif

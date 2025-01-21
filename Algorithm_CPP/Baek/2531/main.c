@@ -5,7 +5,7 @@
 int main() {
 
     int N, d, k, c;
-    int i, j, m, temp, temp_result, result = 0;
+    int i, j, m, temp, temp_maps, maps = 0;
     int** arr;
     int* temp_arr;
 
@@ -32,11 +32,11 @@ int main() {
     free(temp_arr);
 
     for (i = 0; i < N; i++) {
-        temp_result = 0;
+        temp_maps = 0;
         for (j = 0; j < k + 1; j++) {
             if (arr[i][j] != 0) {
                 temp = arr[i][j];
-                temp_result++;
+                temp_maps++;
                 for (m = j + 1; m < k + 1; m++) {
                     if (arr[i][j] == arr[i][m]) {
                         arr[i][m] = 0;
@@ -45,12 +45,12 @@ int main() {
             }
 
         }
-        if (result < temp_result) {
-            result = temp_result;
+        if (maps < temp_maps) {
+            maps = temp_maps;
         }
     }
 
-    printf("%d\n", result);
+    printf("%d\n", maps);
     return 0;
 }
 #endif

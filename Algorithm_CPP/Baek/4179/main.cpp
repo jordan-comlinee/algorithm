@@ -10,11 +10,11 @@ int dx[4] = { 1, -1, 0, 0 };
 int dy[4] = { 0, 0, 1, -1 };
 int visited[1000][1000];
 bool fireVisited[1000][1000] = { false };
-int result = 0;
+int maps = 0;
 
 void isEscapable() {
-    if (result > 0) {
-        cout << result << endl;
+    if (maps > 0) {
+        cout << maps << endl;
     }
     else {
         cout << "IMPOSSIBLE" << endl;
@@ -65,7 +65,7 @@ void bfs() {
 
             // 미로의 가장자리라면 탈출 가능
             if (x == R - 1 || y == C - 1 || x == 0 || y == 0) {
-                result = visited[x][y];
+                maps = visited[x][y];
                 return;
             }
 

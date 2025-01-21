@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int N, result= 0, farthestNode = 0;
+int N, maps= 0, farthestNode = 0;
 map<int, vector<pair<int, int>>> nodes;
 
 bool comp(pair<int, int> a, pair<int, int> b) {
@@ -10,8 +10,8 @@ bool comp(pair<int, int> a, pair<int, int> b) {
 
 void dfs(int start, int length, vector<bool>& visited) {
 	visited[start] = true;
-	if (length > result){
-		result = length;
+	if (length > maps){
+		maps = length;
 		farthestNode = start;
 	}
 	for (auto &neighbor : nodes[start]) {
@@ -38,8 +38,8 @@ int main() {
 	vector<bool> visited(N + 1, false);
 	dfs(1, 0, visited);
 	fill(visited.begin(), visited.end(), false);
-	result = 0;
+	maps = 0;
 	dfs(farthestNode, 0, visited);
-	cout << result << endl;
+	cout << maps << endl;
 
 }

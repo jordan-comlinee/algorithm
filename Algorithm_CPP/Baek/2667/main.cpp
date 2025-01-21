@@ -4,7 +4,7 @@ using namespace std;
 
 int N;
 vector<string> maps;
-vector<int> result;
+vector<int> maps;
 bool visited[MAX + 1][MAX + 1] = { false };
 int dx[4] = { 0, 0, -1, 1 };
 int dy[4] = { -1, 1, 0, 0 };
@@ -30,13 +30,13 @@ void solution() {
 		for (int j = 0; j < N; j++) {
 			if (maps[i][j] == '1' && !visited[i][j]) {
 				count = dfs(i, j);
-				result.push_back(count);
+				maps.push_back(count);
 			}
 		}
 	}
-	sort(result.begin(), result.end());
-	cout << result.size() << endl;
-	for (int i : result) {
+	sort(maps.begin(), maps.end());
+	cout << maps.size() << endl;
+	for (int i : maps) {
 		cout << i << endl;
 	}
 }
