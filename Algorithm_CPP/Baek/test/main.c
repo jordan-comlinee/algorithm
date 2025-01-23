@@ -316,7 +316,7 @@ int main(void) {
 #endif
 
 // 링크드리스트를 활용한 큐(Queue) 만들기 (더미없음)
-#if 1
+#if 0
 typedef int ElementType;
 typedef struct _node {
 	ElementType data;
