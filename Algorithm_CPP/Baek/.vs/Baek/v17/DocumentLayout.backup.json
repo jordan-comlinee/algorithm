@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C8036C9-CB8F-4975-ADD3-55AC62B4DC66}|2293\\2293.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2293\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C8036C9-CB8F-4975-ADD3-55AC62B4DC66}|2293\\2293.vcxproj|solutionrelative:2293\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE668D7-265C-421F-94A5-D961631DD5E5}|10845\\10845.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\10845\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FAE668D7-265C-421F-94A5-D961631DD5E5}|10845\\10845.vcxproj|solutionrelative:10845\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{211E1DCC-1F52-400A-845F-CAFE431DCD26}|1504\\1504.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1504\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{211E1DCC-1F52-400A-845F-CAFE431DCD26}|1504\\1504.vcxproj|solutionrelative:1504\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -46,18 +54,43 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1504\\main.cpp",
-              "RelativeDocumentMoniker": "1504\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1504\\main.cpp*",
-              "RelativeToolTip": "1504\\main.cpp*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDMAAAAEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2293\\main.cpp",
+              "RelativeDocumentMoniker": "2293\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\2293\\main.cpp",
+              "RelativeToolTip": "2293\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-26T23:42:17.52Z",
+              "WhenOpened": "2025-01-27T06:14:06.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\10845\\main.cpp",
+              "RelativeDocumentMoniker": "10845\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\10845\\main.cpp",
+              "RelativeToolTip": "10845\\main.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-27T05:15:30.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1504\\main.cpp",
+              "RelativeDocumentMoniker": "1504\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1504\\main.cpp",
+              "RelativeToolTip": "1504\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-26T23:42:17.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "main_pocketmon.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\AppData\\Local\\Temp\\70703c77-a2b9-4386-a543-7439b9980ea2_3\uC77C\uCC28\uC18C\uC2A4.zip.ea2\\main_pocketmon.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\70703c77-a2b9-4386-a543-7439b9980ea2_3\uC77C\uCC28\uC18C\uC2A4.zip.ea2\\main_pocketmon.cpp",
@@ -70,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "main_prj12.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\AppData\\Local\\Temp\\53876293-9d18-4b52-8fc3-3cc4f17642d2_3\uC77C\uCC28\uC18C\uC2A4.zip.2d2\\main_prj12.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\53876293-9d18-4b52-8fc3-3cc4f17642d2_3\uC77C\uCC28\uC18C\uC2A4.zip.2d2\\main_prj12.cpp",
@@ -83,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Baek\\1043\\main.cpp",
               "RelativeDocumentMoniker": "1043\\main.cpp",
