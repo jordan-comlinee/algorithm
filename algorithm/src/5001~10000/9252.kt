@@ -6,7 +6,7 @@ import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
 // 9251의 코드에서 역으로 LCS를 구해낸다.
-fun main() {
+private fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
     val N = br.readLine()
