@@ -10,14 +10,14 @@ private lateinit var home : Array<IntArray>
 private var max = 0
 private var min = 256
 
-fun getMaxMin() {
+private fun getMaxMin() {
     for (heights in home) {
         max = max(heights.max(), max)
         min = min(heights.min(), min)
     }
 }
 
-fun solution(N: Int, M: Int, B : Int) {
+private fun solution(N: Int, M: Int, B : Int) {
     var results = mutableListOf<Pair<Int, Int>>()
     for (height in min..max) {
         var time = 0

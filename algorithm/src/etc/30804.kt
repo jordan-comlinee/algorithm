@@ -9,7 +9,7 @@ private var count = HashMap<Int, Int>()
 
 private var N = 0
 
-fun solution() {
+private fun solution() {
     var left = 0
     var right = 0
     while(right < N) {
