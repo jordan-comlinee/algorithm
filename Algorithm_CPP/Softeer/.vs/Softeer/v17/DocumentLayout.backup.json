@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14D9847E-5930-4C6F-A9ED-BF93EB236D00}|\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14D9847E-5930-4C6F-A9ED-BF93EB236D00}|\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4.vcxproj|solutionrelative:\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FA2F180-3EE6-4D6F-A4CC-39CF6733A6C7}|\uD6A8\uB3C4\uC5EC\uD589\\\uD6A8\uB3C4\uC5EC\uD589.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uD6A8\uB3C4\uC5EC\uD589\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6FA2F180-3EE6-4D6F-A4CC-39CF6733A6C7}|\uD6A8\uB3C4\uC5EC\uD589\\\uD6A8\uB3C4\uC5EC\uD589.vcxproj|solutionrelative:\uD6A8\uB3C4\uC5EC\uD589\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -44,6 +48,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\main.cpp",
+              "RelativeDocumentMoniker": "\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\main.cpp",
+              "RelativeToolTip": "\uC218\uD37C \uBC14\uC774\uB7EC\uC2A4\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-01T05:13:25.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uD6A8\uB3C4\uC5EC\uD589\\main.cpp",
               "RelativeDocumentMoniker": "\uD6A8\uB3C4\uC5EC\uD589\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uD6A8\uB3C4\uC5EC\uD589\\main.cpp",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp",
               "RelativeDocumentMoniker": "\uD0DD\uBC30 \uB9C8\uC2A4\uD130 \uAD11\uC6B0\\main.cpp",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\Softeer\\practice\\main.cpp",
               "RelativeDocumentMoniker": "practice\\main.cpp",
