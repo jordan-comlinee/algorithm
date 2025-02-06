@@ -22,7 +22,7 @@ private fun input_data(){
     total = br.readLine().toInt()
 }
 
-fun getSum(m : Int) : Int{
+private fun getSum(m : Int) : Int{
     var sum = 0;
     county.forEach {
         sum += min(m, it)
@@ -30,7 +30,7 @@ fun getSum(m : Int) : Int{
     return sum
 }
 
-fun solution() : Int{
+private fun solution() : Int{
     var result = 0
     if (sum < total)
         return county[N-1]
