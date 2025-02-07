@@ -1,1 +1,2 @@
 C:\Users\leeso\Desktop\C++\Algorithm_CPP\Softeer\진정한 효도\x64\Debug\진정한 효도.exe
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\Softeer\진정한 효도\x64\Debug\진정한 효도.exe
