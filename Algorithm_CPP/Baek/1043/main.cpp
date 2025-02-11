@@ -54,9 +54,12 @@ bool same_parent(int a, int b) {
 }
 
 void solution() {
+	// 처음 : 각 사람의 부모 = 자신으로 설정한다.
 	for (int i = 1; i < N + 1; ++i) parent[i] = i;
+	// 파티에 대해 union-find 진행
 	for (int i = 0; i < M; ++i) {
 		int N1 = party_list[i][0];
+		// 파티에 참석한 사람마다, union 진행
 		for (int j = 1; j < party_list[i].size(); ++j) {
 			int N2 = party_list[i][j];
 			union_parent(N1, N2);
@@ -66,9 +69,11 @@ void solution() {
 		int available = 1;
 		for (int j = 0; j < party_list[i].size(); ++j) {
 			if (available == 0) break;
+			// i번째 파티 리스트의 각 파티원에 대하여..
 			int N1 = party_list[i][j];
 			for (int k = 0; k < teller_list.size(); ++k) {
 				int N2 = teller_list[k];
+				// 만약 같은 부모를 가지고 있다? = 같은 파티에 참여한 적이 있다 -> 불가능
 				if (same_parent(N1, N2)){
 					available = 0;
 					break;
