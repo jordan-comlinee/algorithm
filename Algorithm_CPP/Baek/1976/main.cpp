@@ -5,14 +5,13 @@ int N, M; // 도시의 수, 여행 계획에 속한 도시들의 수
 int a, b, c;
 vector<vector<int>> connected;	// 도시 연결 정보
 vector<int> destination; // 동혁이의 여행 계획
-vector<int> cities;		// 도시들이 서로 연결되어있는지 확인
-vector<int> parents;
+vector<int> parents;	// 부모 노드 (union 찾기)
 bool isPossible = true;
 
 void input_data();
 void solution();
-int find_parents(int target);
-void union_parent(int a, int b);
+int find_parents(int target);	// 찾기 -> 기준 찾기
+void union_parent(int a, int b);	// 합치기 -> 합집합 만들기
 
 int main() {
 	input_data();
@@ -32,7 +31,6 @@ void input_data() {
 	cin.tie(NULL);
 	cin >> N >> M;
 	connected.resize(N+1);
-	cities.resize(N + 1);
 	parents.resize(N + 1);
 	for (int i = 1; i <= N; ++i){
 		connected[i].resize(N + 1);
