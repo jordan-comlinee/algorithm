@@ -4,7 +4,7 @@ using namespace std;
 int N, T, P;
 const int MAX = 16;
 vector<pair<int, int>> time_table(MAX);
-int result = 0;
+vector<int> result_table(MAX);
 
 void input_data();
 void solution();
@@ -12,7 +12,7 @@ void solution();
 int main() {
 	input_data();
 	solution();
-	cout << result << endl;
+	cout << result_table[0] << endl;
 }
 
 void input_data() {
@@ -26,12 +26,13 @@ void input_data() {
 }
 
 void solution() {
-	int last_idx = N;
-	for (int i = N-1; i >= 0; --i) {
-		if (i+time_table[i].first-1 < last_idx){
-			cout << "selected : " << i << " last index : "<< last_idx << endl;
-			result += time_table[i].second;
-			last_idx = i;
+	for (int i = N - 1; i >= 0; --i) {
+		int next_day = i + time_table[i].first;
+		if (next_day <= N) {
+			result_table[i] = max(time_table[i].second + result_table[next_day], result_table[i + 1]);
+		}
+		else {
+			result_table[i] = result_table[i + 1];
 		}
 	}
 }
