@@ -1,23 +1,20 @@
-#include<bits/stdc++.h>
+ï»¿#include<bits/stdc++.h>
 using namespace std;
 using dt = pair<int, pair<int, int>>;
-const int MAX = 10;
-// ¶¥ÀÇ Å©±â, ³ª¹«ÀÇ °³¼ö, ½Ã°£
+const int MAX = 11;
+// ë•…ì˜ í¬ê¸°, ë‚˜ë¬´ì˜ ê°œìˆ˜, ì‹œê°„
 int N, M, K;
-int i, j;
 int board[MAX][MAX] = { 0 };
+vector<int> treeBoard[MAX][MAX];
 int A[MAX][MAX] = { 0 };
-priority_queue<dt, vector<dt>, greater<dt>> tree;
-priority_queue<dt> nextTree;
-priority_queue<dt> deadTree;
 int dx[] = { -1, -1, -1, 1, 1, 1, 0, 0 };
 int dy[] = { -1, 1, 0, -1, 1, 0, -1, 1 };
 
 void inputData();
-void spring();
-void summer();
+void springSummer();
+void growTree(int x, int y);
 void fall();
-void reproduceTree(pair<int, int> position);
+void reproduceTree(int x,  int y);
 bool isInRange(int x, int y);
 void winter();
 void printData();
@@ -26,107 +23,114 @@ void solution();
 int main() {
 	inputData();
 	solution();
-	cout << tree.size() << endl;
+	int cnt = 0;
+	for (int i = 0; i < N; ++i) {
+		for (int j = 0; j < N; ++j) {
+			//cout << treeBoard[i][j].size() << " ";
+			//for (auto tr : treeBoard[i][j]) {
+			//	cout << "board[" << i << "][" << j << "] = " << tr << endl;
+			//}
+			cnt += treeBoard[i][j].size();
+		}
+		//cout << endl;
+	}
+	cout << cnt << endl;
 }
 
 
 void inputData() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
-	fill(&board[0][0], &board[MAX][MAX], 5);
+	fill(&board[0][0], &board[MAX-1][MAX-1], 5);
 	cin >> N >> M >> K;
-	for (i = 0; i < N; ++i) {
-		for (j = 0; j < N; ++j) {
+	for (int i = 0; i < N; ++i) {
+		for (int j = 0; j < N; ++j) {
 			cin >> A[i][j];
 		}
 	}
-	for (i = 0; i < M; ++i) {
+	for (int i = 0; i < M; ++i) {
 		int x, y, z;
 		cin >> x >> y >> z;
-		tree.push(make_pair(z, make_pair(x-1, y-1)));
+		treeBoard[x - 1][y - 1].push_back(z);
 	}
 }
-// º½¿¡´Â ³ª¹«°¡ ÀÚ½ÅÀÇ ³ªÀÌ¸¸Å­ ¾çºĞÀ» ¸Ô°í, ³ªÀÌ°¡ 1 Áõ°¡ÇÑ´Ù.
-void spring() {
-	//cout << "spring start" << endl;
-	while (!tree.empty()) {
-		int currentTreeSize = tree.top().first;
-		pair<int, int> currentTreePos = tree.top().second;
-		tree.pop();
-
-		if (board[currentTreePos.first][currentTreePos.second] >= currentTreeSize) {
-			board[currentTreePos.first][currentTreePos.second] -= currentTreeSize;
-			nextTree.push(make_pair(++currentTreeSize, currentTreePos));
-		}
-		//¸¸¾à, ¶¥¿¡ ¾çºĞÀÌ ºÎÁ·ÇØ ÀÚ½ÅÀÇ ³ªÀÌ¸¸Å­ ¾çºĞÀ» ¸ÔÀ» ¼ö ¾ø´Â ³ª¹«´Â ¾çºĞÀ» ¸ÔÁö ¸øÇÏ°í Áï½Ã Á×´Â´Ù.
-		else {
-			deadTree.push(make_pair(currentTreeSize, currentTreePos));
+// ë´„ì—ëŠ” ë‚˜ë¬´ê°€ ìì‹ ì˜ ë‚˜ì´ë§Œí¼ ì–‘ë¶„ì„ ë¨¹ê³ , ë‚˜ì´ê°€ 1 ì¦ê°€í•œë‹¤.
+void springSummer() {
+	//cout << "spring & summer start" << endl;
+	for (int i = 0; i < N; ++i) {
+		for (int j = 0; j < N; ++j) {
+			if (!treeBoard[i][j].empty()) {
+				//cout << "is not empty" << endl;
+				growTree(i, j);
+			}
 		}
 	}
-	// »ì¾Æ ³²Àº ³ª¹«µéÀº ´Ù½Ã tree ¸®½ºÆ®¿¡ ³Ö´Â´Ù.
-	while (!nextTree.empty()) {
-		tree.push(nextTree.top());
-		nextTree.pop();
-	}
-	//cout << tree.size() << endl;
 
 }
-// ¿©¸§¿¡´Â º½¿¡ Á×Àº ³ª¹«°¡ ¾çºĞÀ¸·Î º¯ÇÏ°Ô µÈ´Ù.
-void summer() {
-	//cout << "summer start" << endl;
-	while (!deadTree.empty()) {
-		// °¢°¢ÀÇ Á×Àº ³ª¹«¸¶´Ù ³ªÀÌ¸¦ 2·Î ³ª´« °ªÀÌ ³ª¹«°¡ ÀÖ´ø Ä­¿¡ ¾çºĞÀ¸·Î Ãß°¡µÈ´Ù. ¼Ò¼öÁ¡ ¾Æ·¡´Â ¹ö¸°´Ù.
-		int deadTreeSize = deadTree.top().first;
-		pair<int, int> deadTreePos = deadTree.top().second;
-		deadTree.pop();
-		board[deadTreePos.first][deadTreePos.second] += deadTreeSize / 2;
+
+void growTree(int x, int y) {
+	//cout << "grow start" << endl;
+	queue<int> deadTree;
+	sort(treeBoard[x][y].begin(), treeBoard[x][y].end());
+	int score = 0;
+	for (int i = 0; i < treeBoard[x][y].size(); ++i) {
+		if (treeBoard[x][y][i] > 0) {
+			if (board[x][y] >= treeBoard[x][y][i]) {
+				board[x][y] -= treeBoard[x][y][i];
+				treeBoard[x][y][i] += 1;
+			}
+			else {
+				score += treeBoard[x][y][i] / 2;
+				treeBoard[x][y][i] = -1;
+				
+			}
+		}
+		
 	}
+	treeBoard[x][y].erase(remove(treeBoard[x][y].begin(), treeBoard[x][y].end(), -1), treeBoard[x][y].end());
+	// summer
+	board[x][y] += score;
+
 }
-// °¡À»¿¡´Â ³ª¹«°¡ ¹ø½ÄÇÑ´Ù.
+// ê°€ì„ì—ëŠ” ë‚˜ë¬´ê°€ ë²ˆì‹í•œë‹¤.
 void fall() {
+	//  ë²ˆì‹í•˜ëŠ” ë‚˜ë¬´ëŠ” ë‚˜ì´ê°€ 5ì˜ ë°°ìˆ˜ì´ì–´ì•¼ í•˜ë©°, ì¸ì ‘í•œ 8ê°œì˜ ì¹¸ì— ë‚˜ì´ê°€ 1ì¸ ë‚˜ë¬´ê°€ ìƒê¸´ë‹¤.
 	//cout << "fall start" << endl;
-	while (!tree.empty()) {
-		int currentTreeSize = tree.top().first;
-		pair<int, int> currentTreePos = tree.top().second;
-		tree.pop();
-		//  ¹ø½ÄÇÏ´Â ³ª¹«´Â ³ªÀÌ°¡ 5ÀÇ ¹è¼öÀÌ¾î¾ß ÇÏ¸ç,
-		if (currentTreeSize % 5 == 0) {
-			//cout << "reproduce" << endl;
-			//ÀÎÁ¢ÇÑ 8°³ÀÇ Ä­¿¡ ³ªÀÌ°¡ 1ÀÎ ³ª¹«°¡ »ı±ä´Ù.
-			reproduceTree(currentTreePos);
+	for (int i = 0; i < N; ++i) {
+		for (int j = 0; j < N; ++j) {
+			//cout << "x : " << i << " y : " << j << "tree size : " << treeBoard[i][j].size() << endl;
+			for (auto tree : treeBoard[i][j]) {
+				//cout << tree << endl;
+				if (tree % 5 == 0) {
+					//cout << "grow" << endl;
+					reproduceTree(i, j);
+				}
+			}
 		}
-
-		nextTree.push(make_pair(currentTreeSize, currentTreePos));
-
-	}
-	// È®ÀÎÇÑ ³ª¹«µéÀº ´Ù½Ã tree ¸®½ºÆ®¿¡ ³Ö´Â´Ù.
-	while (!nextTree.empty()) {
-		tree.push(nextTree.top());
-		nextTree.pop();
 	}
 	//cout << tree.size() << endl;
 }
 
-void reproduceTree(pair<int, int> position) {
-	for (i = 0; i < 8; ++i) {
-		int nx = position.first + dx[i];
-		int ny = position.second + dy[i];
+void reproduceTree(int x, int y) {
+	for (int i = 0; i < 8; ++i) {
+		int nx = x + dx[i];
+		int ny = y + dy[i];
 		if (isInRange(nx, ny)) {
-			tree.push(make_pair(1, make_pair(nx, ny)));
+			treeBoard[nx][ny].push_back(1);
 		}
 	}
 }
 
 bool isInRange(int x, int y) {
-	return (0 <= x && x < N && 0 <= y && y <= N);
+	return (0 <= x && x < N && 0 <= y && y < N);
 }
 
 
-// °Ü¿ï¿¡´Â S2D2°¡ ¶¥À» µ¹¾Æ´Ù´Ï¸é¼­ ¶¥¿¡ ¾çºĞÀ» Ãß°¡ÇÑ´Ù.
+// ê²¨ìš¸ì—ëŠ” S2D2ê°€ ë•…ì„ ëŒì•„ë‹¤ë‹ˆë©´ì„œ ë•…ì— ì–‘ë¶„ì„ ì¶”ê°€í•œë‹¤.
 void winter() {
 	//cout << "winter start" << endl;
-	for (i = 0; i < N; ++i) {
-		for (j = 0; j < N; ++j) {
+	for (int i = 0; i < N; ++i) {
+		for (int j = 0; j < N; ++j) {
 			board[i][j] += A[i][j];
 		}
 	}
@@ -140,8 +144,8 @@ void printData() {
 	}
 	*/
 	cout << "============" << endl;
-	for (i = 0; i < N; ++i) {
-		for (j = 0; j < N; ++j) {
+	for (int i = 0; i < N; ++i) {
+		for (int j = 0; j < N; ++j) {
 			cout << board[i][j] << " ";
 		}
 		cout << endl;
@@ -152,11 +156,21 @@ void printData() {
 void solution() {
 	for (int i = 0; i < K; ++i) {
 		//cout << "====" << i << "====" << endl;
-		spring();
-		summer();
+		springSummer();
 		fall();
 		winter();
 		//cout << "after season, tree's size is " << tree.size() << endl;
-		if (tree.size() == 0) return;
+		if (M == 0) return;
+
+		//for (int i = 0; i < N; ++i) {
+		//	for (int j = 0; j < N; ++j) {
+		//		//cout << treeBoard[i][j].size() << " ";
+		//		for (auto tr : treeBoard[i][j]) {
+		//			cout << "board[" << i << "][" << j << "] = " << tr << endl;
+		//		}
+		//	}
+		//	//cout << endl;
+		//}
+		//cout << "=============" << endl;
 	}
 }
