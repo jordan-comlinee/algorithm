@@ -59,6 +59,7 @@ void springSummer() {
 	//cout << "spring & summer start" << endl;
 	for (int i = 0; i < N; ++i) {
 		for (int j = 0; j < N; ++j) {
+			// continue;
 			if (!treeBoard[i][j].empty()) {
 				//cout << "is not empty" << endl;
 				growTree(i, j);
@@ -70,7 +71,6 @@ void springSummer() {
 
 void growTree(int x, int y) {
 	//cout << "grow start" << endl;
-	queue<int> deadTree;
 	sort(treeBoard[x][y].begin(), treeBoard[x][y].end());
 	int score = 0;
 	for (int i = 0; i < treeBoard[x][y].size(); ++i) {
@@ -87,6 +87,7 @@ void growTree(int x, int y) {
 		}
 		
 	}
+	// 
 	treeBoard[x][y].erase(remove(treeBoard[x][y].begin(), treeBoard[x][y].end(), -1), treeBoard[x][y].end());
 	// summer
 	board[x][y] += score;
