@@ -9,8 +9,6 @@ typedef struct _snowpoint {
 int N;
 vector<int> snowballs;
 int result = INT32_MAX;
-int rightP, leftP;
-int sub;
 
 void inputData();
 void solution();
@@ -37,9 +35,7 @@ void solution() {
 	sort(snowballs.begin(), snowballs.end());
 	for (int i = 0; i < N - 1; ++i) {
 		for (int j = i + 1; j < N; ++j) {
-			//cout << i << " " << j << endl;
 			result = min(result, findSmallest(i, j, snowballs));
-			//cout << "==========================" << endl;
 		}
 	}
 	
@@ -54,19 +50,11 @@ int findSmallest(int a, int b, vector<int> annaSnowballs) {
 
 	snowP anna = { 0, annaSnowballs.size()-1};
 	while (anna.leftP < anna.rightP) {
-		cur = abs(annaSnowballs[anna.leftP] + annaSnowballs[anna.rightP]-elzaHap);
-		diff = min(cur, diff);
-		if (annaSnowballs[anna.leftP] + annaSnowballs[anna.rightP] - elzaHap < 0) {
-			anna.leftP++;
-		}
-		else if (annaSnowballs[anna.leftP] + annaSnowballs[anna.rightP] - elzaHap > 0) {
-			anna.rightP--;
-		}
-		else { 
-			//cout << 0 << endl;
-			return 0;
-		}
+		cur = annaSnowballs[anna.leftP] + annaSnowballs[anna.rightP]-elzaHap;
+		diff = min(abs(cur), diff);
+		if (cur < 0) anna.leftP++;
+		else if (cur > 0) anna.rightP--;
+		else return 0;
 	}
-	//cout << elzaHap << " " << diff << endl;
 	return diff;
 }
