@@ -25,8 +25,8 @@ int getIntensity(int summit, vector<int> gates) {
         int intense = pq.top().first;
         int curPoint = pq.top().second;
         pq.pop();
-
-        if (intense > intensities[curPoint] || course[curPoint] == GATE) continue;
+        if (course[curPoint] == GATE) return intense;
+        if (intense > intensities[curPoint]) continue;
         for (auto i : node[curPoint]) {
             int cost = i.first;
             int nextNode = i.second;
@@ -54,7 +54,9 @@ vector<int> solution(int n, vector<vector<int>> paths, vector<int> gates, vector
     for (auto summit : summits) {
         course[summit] = SUMMIT;
     }
+    sort(summits.begin(), summits.end());
     for (auto summit : summits) {
+        //cout << summit << endl;
         int intensity = getIntensity(summit, gates);
         //cout << "summit " << summit << " intensity is " << intensity << endl;
         if (intensity < answer[1]) {

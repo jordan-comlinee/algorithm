@@ -1,12 +1,79 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5951F2-B4D8-4D68-9642-3D3F8D2BAA95}|\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F5951F2-B4D8-4D68-9642-3D3F8D2BAA95}|\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30.vcxproj|solutionrelative:\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84352C4E-3E9E-46C4-B87C-2B8BCA2EC25F}|[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84352C4E-3E9E-46C4-B87C-2B8BCA2EC25F}|[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D.vcxproj|solutionrelative:[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "RelativeDocumentMoniker": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "RelativeToolTip": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T05:06:48.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "RelativeDocumentMoniker": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "RelativeToolTip": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T05:06:39.643Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
