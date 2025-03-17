@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28A60D7E-9508-418C-9DDB-2D46609A9C2A}|\uC138\uADE0 \uC99D\uC2DD\\\uC138\uADE0 \uC99D\uC2DD.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC138\uADE0 \uC99D\uC2DD\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28A60D7E-9508-418C-9DDB-2D46609A9C2A}|\uC138\uADE0 \uC99D\uC2DD\\\uC138\uADE0 \uC99D\uC2DD.vcxproj|solutionrelative:\uC138\uADE0 \uC99D\uC2DD\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F5951F2-B4D8-4D68-9642-3D3F8D2BAA95}|\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9F5951F2-B4D8-4D68-9642-3D3F8D2BAA95}|\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30.vcxproj|solutionrelative:\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -40,18 +44,30 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "RelativeDocumentMoniker": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "RelativeToolTip": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
+              "RelativeDocumentMoniker": "\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
+              "RelativeToolTip": "\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T05:06:48.819Z",
+              "WhenOpened": "2025-03-13T07:48:10.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "RelativeDocumentMoniker": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "RelativeToolTip": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T05:06:48.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
               "RelativeDocumentMoniker": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
