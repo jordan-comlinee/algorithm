@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "세균 증식", "세균 증
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "덧칠하기", "덧칠하기\덧칠하기.vcxproj", "{39151A14-9E84-4F09-BC97-42A1B0D16240}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "메뉴 리뉴얼", "메뉴 리뉴얼\메뉴 리뉴얼.vcxproj", "{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{39151A14-9E84-4F09-BC97-42A1B0D16240}.Release|x64.Build.0 = Release|x64
 		{39151A14-9E84-4F09-BC97-42A1B0D16240}.Release|x86.ActiveCfg = Release|Win32
 		{39151A14-9E84-4F09-BC97-42A1B0D16240}.Release|x86.Build.0 = Release|Win32
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Debug|x64.ActiveCfg = Debug|x64
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Debug|x64.Build.0 = Debug|x64
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Debug|x86.Build.0 = Debug|Win32
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Release|x64.ActiveCfg = Release|x64
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Release|x64.Build.0 = Release|x64
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Release|x86.ActiveCfg = Release|Win32
+		{4526D156-DFCF-4FB8-BFAF-04A3D128C0C3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
