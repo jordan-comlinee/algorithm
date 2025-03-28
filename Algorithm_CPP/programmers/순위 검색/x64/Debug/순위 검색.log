@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\programmers\순위 검색\main.cpp(17,13): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\programmers\순위 검색\main.cpp(20,21): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\programmers\순위 검색\main.cpp(21,23): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  순위 검색.vcxproj -> C:\Users\leeso\Desktop\algorithm\Algorithm_CPP\programmers\x64\Debug\순위 검색.exe
