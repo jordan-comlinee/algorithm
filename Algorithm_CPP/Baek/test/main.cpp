@@ -1,7 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+long long n;
+
 int main() {
-	int a = 1000000000;
-	cout << a << endl;
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cin >> n;
+	cout << n*n*n << endl;
+	cout << 3 << endl;
 }
