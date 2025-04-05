@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "양과 늑대", "양과 늑
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "배달", "배달\배달.vcxproj", "{190F6443-9E40-4527-85B5-0E116EA4BFFE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "미로탈출", "미로탈출\미로탈출.vcxproj", "{10FDE08A-9508-4614-AE4D-6DEF098852E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{190F6443-9E40-4527-85B5-0E116EA4BFFE}.Release|x64.Build.0 = Release|x64
 		{190F6443-9E40-4527-85B5-0E116EA4BFFE}.Release|x86.ActiveCfg = Release|Win32
 		{190F6443-9E40-4527-85B5-0E116EA4BFFE}.Release|x86.Build.0 = Release|Win32
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Debug|x64.ActiveCfg = Debug|x64
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Debug|x64.Build.0 = Debug|x64
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Debug|x86.Build.0 = Debug|Win32
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Release|x64.ActiveCfg = Release|x64
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Release|x64.Build.0 = Release|x64
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Release|x86.ActiveCfg = Release|Win32
+		{10FDE08A-9508-4614-AE4D-6DEF098852E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

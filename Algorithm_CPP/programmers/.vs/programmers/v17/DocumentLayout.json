@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{10FDE08A-9508-4614-AE4D-6DEF098852E8}|\uBBF8\uB85C\uD0C8\uCD9C\\\uBBF8\uB85C\uD0C8\uCD9C.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10FDE08A-9508-4614-AE4D-6DEF098852E8}|\uBBF8\uB85C\uD0C8\uCD9C\\\uBBF8\uB85C\uD0C8\uCD9C.vcxproj|solutionrelative:\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{190F6443-9E40-4527-85B5-0E116EA4BFFE}|\uBC30\uB2EC\\\uBC30\uB2EC.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBC30\uB2EC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{190F6443-9E40-4527-85B5-0E116EA4BFFE}|\uBC30\uB2EC\\\uBC30\uB2EC.vcxproj|solutionrelative:\uBC30\uB2EC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -49,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,7 +73,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
+              "RelativeDocumentMoniker": "\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
+              "RelativeToolTip": "\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T00:51:27.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "xutility",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\xutility",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\xutility",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBC30\uB2EC\\main.cpp",
               "RelativeDocumentMoniker": "\uBC30\uB2EC\\main.cpp",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC591\uACFC \uB291\uB300\\main.cpp",
               "RelativeDocumentMoniker": "\uC591\uACFC \uB291\uB300\\main.cpp",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC21C\uC704 \uAC80\uC0C9\\main.cpp",
               "RelativeDocumentMoniker": "\uC21C\uC704 \uAC80\uC0C9\\main.cpp",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "failed_main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp",
               "RelativeDocumentMoniker": "\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp",
@@ -130,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp",
               "RelativeDocumentMoniker": "\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp",
@@ -142,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB367\uCE60\uD558\uAE30\\main.cpp",
               "RelativeDocumentMoniker": "\uB367\uCE60\uD558\uAE30\\main.cpp",
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
               "RelativeDocumentMoniker": "\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
@@ -166,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
               "RelativeDocumentMoniker": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
@@ -178,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
               "RelativeDocumentMoniker": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
