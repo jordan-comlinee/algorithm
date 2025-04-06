@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\SamsungPractice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7247DBB-15FF-4A97-BC3A-1E9B185D040E}|\uC608\uC220\uC131\\\uC608\uC220\uC131.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\SamsungPractice\\\uC608\uC220\uC131\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F7247DBB-15FF-4A97-BC3A-1E9B185D040E}|\uC608\uC220\uC131\\\uC608\uC220\uC131.vcxproj|solutionrelative:\uC608\uC220\uC131\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57A3CAD3-4FCD-4AC8-AFDF-CE536388AAE9}|\uB098\uBB34\uBC15\uBA78\\\uB098\uBB34\uBC15\uBA78.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\SamsungPractice\\\uB098\uBB34\uBC15\uBA78\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{57A3CAD3-4FCD-4AC8-AFDF-CE536388AAE9}|\uB098\uBB34\uBC15\uBA78\\\uB098\uBB34\uBC15\uBA78.vcxproj|solutionrelative:\uB098\uBB34\uBC15\uBA78\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -36,14 +40,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\SamsungPractice\\\uC608\uC220\uC131\\main.cpp",
+              "RelativeDocumentMoniker": "\uC608\uC220\uC131\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\SamsungPractice\\\uC608\uC220\uC131\\main.cpp",
+              "RelativeToolTip": "\uC608\uC220\uC131\\main.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-06T00:26:29.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\SamsungPractice\\\uB098\uBB34\uBC15\uBA78\\main.cpp",
               "RelativeDocumentMoniker": "\uB098\uBB34\uBC15\uBA78\\main.cpp",
               "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\SamsungPractice\\\uB098\uBB34\uBC15\uBA78\\main.cpp",
               "RelativeToolTip": "\uB098\uBB34\uBC15\uBA78\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-05T05:55:42.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T05:55:42.131Z"
             }
           ]
         },
