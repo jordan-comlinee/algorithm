@@ -140,7 +140,6 @@ Square getSmallest() {
 void rotateSquare(Square s) {
 	int len = s.val + 1;
 	int tmpBoard[MAX][MAX];
-	//int len = s.val / 2;
 	for (int i = 0; i < len; ++i) {
 		for (int j = 0; j < len; ++j) {
 			tmpBoard[s.x + j][s.y + len-1-i] = board[s.x + i][s.y + j] > 0 ? board[s.x+i][s.y+j]-1 : board[s.x+i][s.y+j];
