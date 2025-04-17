@@ -7,80 +7,90 @@ struct Atom {
 	int dir;
 	int k;
 	bool live;
-	Atom(int x, int y, int dir, int k, bool live) : x(x), y(y), dir(dir), k(k), live(live) {}
+	Atom(int x, int y, int dir, int k, bool live = true) : x(x), y(y), dir(dir), k(k), live(live) {}
 };
 
-const int MAX = 4000;
-const int MIN = 0;
-// 테스트케이스의 수, 원자들의 수, 원자들의 보유 에너지, 입력 방향
-int T, N, K, x, y, dir;
+const int SIZE = 4001;
+int T, N, x, y, dir, K;
 int result = 0;
 vector<Atom> atoms;
-int conflict[MAX + 1][MAX + 1];
+int board[SIZE][SIZE];
+vector<pair<int, int>> deleteAtoms;
 
 // 상(0) 하(1) 좌(2) 우(3)
 int dx[4] = { 0, 0, -1, 1 };
 int dy[4] = { 1, -1, 0, 0 };
 
-void inputData();
-void solution();
-void atomExplosion();
-
-int main() {
-	solution();
-}
-
-
-//입력의 가장 첫 줄에는 총 테스트 케이스의 개수 T가 주어진다.
-//그 다음 줄부터는 각 테스트 케이스가 주어진다.각 테스트 케이스의 첫째 줄에는 원자들의 수 N이 주어진다.
-//다음 N개의 줄에는 원자들의 x 위치, y 위치, 이동 방향, 보유 에너지 K가 주어진다.
-//원자들의 이동 방향은 상(0), 하(1), 좌(2), 우(3)로 주어진다.
 void inputData() {
+	atoms.clear();
+	memset(board, 0, sizeof(board));
 	cin >> N;
-	for (int n = 0; n < N; ++n) {
+	for (int i = 0; i < N; ++i) {
 		cin >> x >> y >> dir >> K;
-		atoms.push_back(Atom((x + 1000) * 2, (y + 1000) * 2, dir, K, true));
+		int tx = (x + 1000) * 2;
+		int ty = (y + 1000) * 2;
+		atoms.push_back(Atom(tx, ty, dir, K));
+		board[ty][tx]++;
 	}
 }
-// 원자 소멸 시뮬레이션을 진행한다.
-// 각 원자들이 먼저 이동을 수행한다.
-// 원자들 중, 범위 밖으로 벗어난 원자들은 끼지 않는다.
-// 원자들 중, 범위 내의 원자들에서 충돌한 원자들은 없앤다.
-// 소멸까지 완료된 원자들은 없앤다.
-void atomExplosion() {
-	bool move = false;
-	while (true) {
-		move = false;
 
-		// 이동
-		for (int i = 0; i < atoms.size(); ++i) {
-			
-			if (!atoms[i].live) continue;
-			conflict[atoms[i].x][atoms[i].y] = 0;
-			atoms[i].x += dx[atoms[i].dir];
-			atoms[i].y += dy[atoms[i].dir];
+int atomExplosion() {
+	int energySum = 0;
+	int remain = N;
 
-			if (atoms[i].x < MIN || atoms[i].x > MAX || atoms[i].y < MIN || atoms[i].y > MAX) {
-				atoms[i].live = false; // 범위 밖으로 나가면 사망
-				//atoms[i].k = 0;
+	while (remain > 0) {
+		deleteAtoms.clear();
+
+		// 1. 이동
+		for (auto& atom : atoms) {
+			if (!atom.live) continue;
+
+			// 이동 전 위치 -1
+			board[atom.y][atom.x]--;
+
+			atom.x += dx[atom.dir];
+			atom.y += dy[atom.dir];
+
+			// 범위 밖으로 나간 원자 소멸
+			if (atom.x < 0 || atom.x >= SIZE || atom.y < 0 || atom.y >= SIZE) {
+				atom.live = false;
+				--remain;
 				continue;
 			}
-			conflict[atoms[i].x][atoms[i].y] += atoms[i].k;
-			move = true;
+
+			// 이동 후 위치 +1
+			board[atom.y][atom.x]++;
 		}
 
-		// 충돌 처리
-		for (int i = 0; i < atoms.size(); ++i) {
-			if (atoms[i].live && conflict[atoms[i].x][atoms[i].y] != atoms[i].k) {
-				result += conflict[atoms[i].x][atoms[i].y];
-				conflict[atoms[i].x][atoms[i].y] = 0;
-				//atoms[i].k = 0;
-				atoms[i].live = false;
+		// 2. 충돌 체크
+		for (auto& atom : atoms) {
+			if (!atom.live) continue;
+
+			if (board[atom.y][atom.x] >= 2) {
+				// 충돌 위치 기록
+				deleteAtoms.push_back({ atom.y, atom.x });
 			}
 		}
 
-		if (!move) break;
+		// 3. 충돌 처리
+		for (auto& pos : deleteAtoms) {
+			int y = pos.first, x = pos.second;
+
+			for (auto& atom : atoms) {
+				if (!atom.live) continue;
+				if (atom.x == x && atom.y == y) {
+					energySum += atom.k;
+					atom.live = false;
+					--remain;
+				}
+			}
+
+			// 충돌 지점 초기화
+			board[y][x] = 0;
+		}
 	}
+
+	return energySum;
 }
 
 void solution() {
@@ -88,9 +98,13 @@ void solution() {
 	cin.tie(NULL);
 	cin >> T;
 	for (int t = 1; t <= T; ++t) {
-		inputData();
-		atomExplosion();
-		cout << "#" << t << " " << result << endl;
 		result = 0;
+		inputData();
+		result = atomExplosion();
+		cout << "#" << t << " " << result << "\n";
 	}
+}
+
+int main() {
+	solution();
 }
