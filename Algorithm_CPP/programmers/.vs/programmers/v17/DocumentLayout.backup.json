@@ -1,51 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{10FDE08A-9508-4614-AE4D-6DEF098852E8}|\uBBF8\uB85C\uD0C8\uCD9C\\\uBBF8\uB85C\uD0C8\uCD9C.vcxproj|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10FDE08A-9508-4614-AE4D-6DEF098852E8}|\uBBF8\uB85C\uD0C8\uCD9C\\\uBBF8\uB85C\uD0C8\uCD9C.vcxproj|solutionrelative:\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190F6443-9E40-4527-85B5-0E116EA4BFFE}|\uBC30\uB2EC\\\uBC30\uB2EC.vcxproj|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBC30\uB2EC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{190F6443-9E40-4527-85B5-0E116EA4BFFE}|\uBC30\uB2EC\\\uBC30\uB2EC.vcxproj|solutionrelative:\uBC30\uB2EC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90DC8ECD-9760-45D7-9B01-3AABE2D52D79}|\uC591\uACFC \uB291\uB300\\\uC591\uACFC \uB291\uB300.vcxproj|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC591\uACFC \uB291\uB300\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{90DC8ECD-9760-45D7-9B01-3AABE2D52D79}|\uC591\uACFC \uB291\uB300\\\uC591\uACFC \uB291\uB300.vcxproj|solutionrelative:\uC591\uACFC \uB291\uB300\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\xutility||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC21C\uC704 \uAC80\uC0C9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\uC21C\uC704 \uAC80\uC0C9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB367\uCE60\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\uB367\uCE60\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC138\uADE0 \uC99D\uC2DD\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\uC138\uADE0 \uC99D\uC2DD\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -53,16 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -78,139 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
-              "RelativeDocumentMoniker": "\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
-              "RelativeToolTip": "\uBBF8\uB85C\uD0C8\uCD9C\\main.cpp",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwD4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-03T00:51:27.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "xutility",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\xutility",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\xutility",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\xutility",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\xutility",
-              "ViewState": "AgIAAEMUAAAAAAAAAAD4v1AUAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-30T13:52:05.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBC30\uB2EC\\main.cpp",
-              "RelativeDocumentMoniker": "\uBC30\uB2EC\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBC30\uB2EC\\main.cpp",
-              "RelativeToolTip": "\uBC30\uB2EC\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-30T13:47:06.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC591\uACFC \uB291\uB300\\main.cpp",
-              "RelativeDocumentMoniker": "\uC591\uACFC \uB291\uB300\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC591\uACFC \uB291\uB300\\main.cpp",
-              "RelativeToolTip": "\uC591\uACFC \uB291\uB300\\main.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAcwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-28T00:29:34.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC21C\uC704 \uAC80\uC0C9\\main.cpp",
-              "RelativeDocumentMoniker": "\uC21C\uC704 \uAC80\uC0C9\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC21C\uC704 \uAC80\uC0C9\\main.cpp",
-              "RelativeToolTip": "\uC21C\uC704 \uAC80\uC0C9\\main.cpp",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAiwFcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-23T10:50:05.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "failed_main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp",
-              "RelativeDocumentMoniker": "\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp",
-              "RelativeToolTip": "\uBA54\uB274 \uB9AC\uB274\uC5BC\\failed_main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T08:53:57.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp",
-              "RelativeDocumentMoniker": "\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp",
-              "RelativeToolTip": "\uBA54\uB274 \uB9AC\uB274\uC5BC\\main.cpp",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T04:37:15.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB367\uCE60\uD558\uAE30\\main.cpp",
-              "RelativeDocumentMoniker": "\uB367\uCE60\uD558\uAE30\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB367\uCE60\uD558\uAE30\\main.cpp",
-              "RelativeToolTip": "\uB367\uCE60\uD558\uAE30\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-17T23:33:01.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
-              "RelativeDocumentMoniker": "\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
-              "RelativeToolTip": "\uC138\uADE0 \uC99D\uC2DD\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T07:48:10.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "RelativeDocumentMoniker": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "RelativeToolTip": "\uB4F1\uC0B0\uCF54\uC2A4 \uC815\uD558\uAE30\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T05:06:48.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
-              "RelativeDocumentMoniker": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
-              "RelativeToolTip": "[PCCE \uAE30\uCD9C\uBB38\uC81C] 10\uBC88 \uB370\uC774\uD130 \uBD84\uC11D\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T05:06:39.643Z"
             }
           ]
         },
@@ -220,7 +35,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

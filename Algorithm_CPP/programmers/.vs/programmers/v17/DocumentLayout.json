@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4003769-BA7A-46A8-ADAB-A44398402024}|\uBD80\uAC1C\uBCF5\uADC0\\\uBD80\uAC1C\uBCF5\uADC0.vcxproj|C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBD80\uAC1C\uBCF5\uADC0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4003769-BA7A-46A8-ADAB-A44398402024}|\uBD80\uAC1C\uBCF5\uADC0\\\uBD80\uAC1C\uBCF5\uADC0.vcxproj|solutionrelative:\uBD80\uAC1C\uBCF5\uADC0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,16 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -34,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBD80\uAC1C\uBCF5\uADC0\\main.cpp",
+              "RelativeDocumentMoniker": "\uBD80\uAC1C\uBCF5\uADC0\\main.cpp",
+              "ToolTip": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\\uBD80\uAC1C\uBCF5\uADC0\\main.cpp",
+              "RelativeToolTip": "\uBD80\uAC1C\uBCF5\uADC0\\main.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-10T08:32:00.978Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -43,7 +53,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
