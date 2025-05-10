@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\leeso\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
+=======
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\algorithm\\Algorithm_CPP\\programmers\\",
+>>>>>>> 124e0b53f10cc2043b62dcffbcc46fdf3020fb07
   "Documents": [],
   "DocumentGroupContainers": [
     {
