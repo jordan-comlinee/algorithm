@@ -21,7 +21,11 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
+<<<<<<< HEAD
     <ProjectGuid>{6edb6985-7f15-482f-925e-37a782b5a4a1}</ProjectGuid>
+=======
+    <ProjectGuid>{6637d381-95cf-4952-aa21-fb47814ec89c}</ProjectGuid>
+>>>>>>> 8de127e97d1bd61628226b580f55c4805b1c28ab
     <RootNamespace>My2623</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
